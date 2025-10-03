@@ -8,7 +8,13 @@ You can find lecture slides for each lecture in the `slides` directory. If you f
 
 ## Homework Assignments
 
-Homework assignments for the course are available in the `tasks` directory in the form of Markdown files. You can find templates defining function names and signatures in the `templates` directory. Additionally, there are Jupyter notebooks containing expected outputs for some of the functions you need to implement in the `tests` directory.
+Homework assignments for the course are available in the `tasks` directory in the form of Markdown files. You can find templates defining function names and signatures in the `templates` directory.
+
+## Automated Tests
+
+Automated tests for the homework assignments are located in the `tests` directory. The tests use the `pytest` package and compare outputs of your solutions against expected outputs produced by our reference implementations. You can execute all tests using the `pytest` command or run tests for individual weeks using `pytest tests/<file_name>.py`.
+
+This way of testing is completely new this year, so if you encounter any issues, such as tolerance problems with floating-point comparisons or possibly incorrect expected outputs, please let us know on Discord.
 
 ## Contact
 

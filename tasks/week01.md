@@ -26,4 +26,4 @@ See `templates/week01.py` for function definitions and docstrings describing exp
 
 # Week 1 Tests
 
-See `tests/week01.ipynb` for sample outputs of some of the functions you need to implement.
+Execute `pytest tests/test_week01.py` to test your solutions against our reference implementations.
