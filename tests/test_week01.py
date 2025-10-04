@@ -142,13 +142,17 @@ def test_find_strictly_dominated_actions(
 ) -> None:
     row_matrix, col_matrix = next(dominance_data_stream)
 
-    dominated_row_actions = week01.find_strictly_dominated_actions(row_matrix)
-    dominated_col_actions = week01.find_strictly_dominated_actions(np.transpose(col_matrix))
+    row_dominated_actions = week01.find_strictly_dominated_actions(row_matrix)
+    col_dominated_actions = week01.find_strictly_dominated_actions(np.transpose(col_matrix))
+
+    # Sort to ensure a deterministic order for regression testing
+    row_dominated_actions = np.sort(row_dominated_actions)
+    col_dominated_actions = np.sort(col_dominated_actions)
 
     ndarrays_regression.check(
         {
-            'dominated_row_actions': dominated_row_actions,
-            'dominated_col_actions': dominated_col_actions,
+            'row_dominated_actions': row_dominated_actions,
+            'col_dominated_actions': col_dominated_actions,
         },
         f'{request.node.originalname}{request.node.callspec.indices["dominance_data_stream"]}',
     )
