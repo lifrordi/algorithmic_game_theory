@@ -16,6 +16,10 @@ Automated tests for the homework assignments are located in the `tests` director
 
 This way of testing is completely new this year, so if you encounter any issues, such as tolerance problems with floating-point comparisons or possibly incorrect expected outputs, please let us know on Discord.
 
+### Selective test runs and RNG
+
+Tests share a session-scoped NumPy RNG, so running subsets or reordering tests changes the random stream and can break things. Prefer running full files (e.g., `pytest tests/test_week01.py`).
+
 ## Contact
 
 For any questions or clarifications related to the course materials, do not hesitate to contact us. You can reach us through the course Discord server or the faculty emails.
