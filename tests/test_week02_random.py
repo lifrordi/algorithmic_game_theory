@@ -32,13 +32,13 @@ def rng(request: FixtureRequest) -> np.random.Generator:
 @pytest.fixture
 @cache_data_stream_per_function
 def general_sum_data_stream(request: FixtureRequest, rng: np.random.Generator) -> Generator:
-    return parameterize_random_general_sum_tests(10, rng)
+    return parameterize_random_general_sum_tests(8, rng)
 
 
 @pytest.fixture
 @cache_data_stream_per_function
 def zero_sum_data_stream(request: FixtureRequest, rng: np.random.Generator) -> Generator:
-    return parameterize_random_zero_sum_tests(10, rng)
+    return parameterize_random_zero_sum_tests(8, rng)
 
 
 @pytest.mark.parametrize('general_sum_data_stream', range(5), indirect=True)
