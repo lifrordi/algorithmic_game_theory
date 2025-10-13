@@ -15,12 +15,12 @@ def create_general_sum_game(
     min_utility = rng.integers(-100, 75, None, np.int32)
     max_utility = rng.integers(min_utility + 1, 100, None, np.int32)
     row_matrix = rng.integers(min_utility, max_utility, (num_rows, num_cols), np.int32)
-    row_matrix = row_matrix + 1e-6 * rng.random((num_rows, num_cols))
+    row_matrix = row_matrix + 1e-5 * rng.random((num_rows, num_cols))
 
     min_utility = rng.integers(-100, 75, None, np.int32)
     max_utility = rng.integers(min_utility + 1, 100, None, np.int32)
     col_matrix = rng.integers(min_utility, max_utility, (num_rows, num_cols), np.int32)
-    col_matrix = col_matrix + 1e-6 * rng.random((num_rows, num_cols))
+    col_matrix = col_matrix + 1e-5 * rng.random((num_rows, num_cols))
 
     return row_matrix, col_matrix
 

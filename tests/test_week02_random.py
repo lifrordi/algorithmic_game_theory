@@ -16,7 +16,7 @@ from utils import (
     parameterize_random_zero_sum_tests,
 )
 
-BASE_SEED = 101
+BASE_SEED = 141
 
 
 @pytest.fixture
