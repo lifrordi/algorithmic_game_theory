@@ -100,6 +100,56 @@ def create_random_strategy(num_actions: int, rng: np.random.Generator) -> np.nda
         return _create_random_mixed_strategy(num_actions, rng)
 
 
+def parameterize_classical_tests(zero_sum_only: bool, rng: np.random.Generator) -> Generator:
+    games = {
+        'prisoners_dilemma': (
+            np.array([[-1, -3], [0, -2]], np.int32),
+            np.array([[-1, 0], [-3, -2]], np.int32),
+        ),
+        'battle_of_the_sexes': (
+            np.array([[2, 0], [0, 1]], np.int32),
+            np.array([[1, 0], [0, 2]], np.int32),
+        ),
+        'game_of_chicken': (
+            np.array([[0, -1], [1, -10]], np.int32),
+            np.array([[0, 1], [-1, -10]], np.int32),
+        ),
+        'stag_hunt': (
+            np.array([[4, 0], [3, 3]], np.int32),
+            np.array([[4, 3], [0, 3]], np.int32),
+        ),
+        'harmony': (
+            np.array([[3, 1], [2, 4]], np.int32),
+            np.array([[3, 1], [2, 4]], np.int32),
+        ),
+        'coordination': (
+            np.array([[1, 0], [0, 1]], np.int32),
+            np.array([[1, 0], [0, 1]], np.int32),
+        ),
+        'shapley': (
+            np.array([[0, 1, 0], [0, 0, 1], [1, 0, 0]], np.int32),
+            np.array([[0, 0, 1], [1, 0, 0], [0, 1, 0]], np.int32),
+        ),
+        'rock_paper_scissors': (
+            np.array([[0, -1, 1], [1, 0, -1], [-1, 1, 0]], np.int32),
+            np.array([[0, 1, -1], [-1, 0, 1], [1, -1, 0]], np.int32),
+        ),
+        'matching_pennies': (
+            np.array([[1, -1], [-1, 1]], np.int32),
+            np.array([[-1, 1], [1, -1]], np.int32),
+        ),
+    }
+
+    for row_matrix, col_matrix in games.values():
+        if zero_sum_only and not np.all(col_matrix == -row_matrix):
+            continue
+
+        row_strategy = create_random_strategy(row_matrix.shape[0], rng)
+        col_strategy = create_random_strategy(col_matrix.shape[1], rng)
+
+        yield row_matrix, col_matrix, row_strategy, col_strategy
+
+
 def parameterize_random_general_sum_tests(max_size: int, rng: np.random.Generator) -> Generator:
     while True:
         row_matrix, col_matrix = create_general_sum_game(max_size, rng)
