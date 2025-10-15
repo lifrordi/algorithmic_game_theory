@@ -8,7 +8,7 @@
 - Implement the Support Enumeration algorithm which enumerates all possible pairs of supports to find all Nash equilibria in a normal-form game
 
 ## 3) Nash Equilibrium == Maximin Strategies in Zero-Sum Games
-- Prove the two implications from the lecture slides
+- Using the Minimax theorem, prove the two implications from the lecture slides
 
 # Week 2 Template
 
