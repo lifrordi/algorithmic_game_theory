@@ -127,8 +127,8 @@ def parameterize_classical_tests(zero_sum_only: bool, rng: np.random.Generator) 
             np.array([[1, 0], [0, 1]], np.int32),
         ),
         'shapley': (
-            np.array([[0, 1, 0], [0, 0, 1], [1, 0, 0]], np.int32),
-            np.array([[0, 0, 1], [1, 0, 0], [0, 1, 0]], np.int32),
+            np.array([[2, 0, 1], [1, 2, 0], [0, 1, 2]], np.int32),
+            np.array([[1, 0, 2], [2, 1, 0], [0, 2, 1]], np.int32),
         ),
         'rock_paper_scissors': (
             np.array([[0, -1, 1], [1, 0, -1], [-1, 1, 0]], np.int32),

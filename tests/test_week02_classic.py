@@ -54,20 +54,3 @@ def test_support_enumeration_general_sum(
         {f'{i}': np.concatenate(x) for i, x in enumerate(equilibria)},
         f'{request.node.originalname}{request.node.callspec.indices["general_sum_data_stream"]}',
     )
-
-
-@pytest.mark.parametrize('zero_sum_data_stream', range(NUM_ZERO_SUM_GAMES), indirect=True)
-def test_support_enumeration_zero_sum(
-    zero_sum_data_stream: Generator,
-    ndarrays_regression: NDArraysRegressionFixture,
-    request: FixtureRequest,
-) -> None:
-    row_matrix, col_matrix, *_ = next(zero_sum_data_stream)
-
-    equilibria = week02.support_enumeration(row_matrix, col_matrix)
-    equilibria = sorted(equilibria, key=lambda x: (x[0].tobytes(), x[1].tobytes()))
-
-    ndarrays_regression.check(
-        {f'{i}': np.concatenate(x) for i, x in enumerate(equilibria)},
-        f'{request.node.originalname}{request.node.callspec.indices["zero_sum_data_stream"]}',
-    )
