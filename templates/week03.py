@@ -92,6 +92,10 @@ def fictitious_play(
 ) -> list[tuple[np.ndarray, np.ndarray]]:
     """Run Fictitious Play for a given number of epochs.
 
+    Although any averaging method is valid, the reference solution updates the
+    average strategy vectors using a moving average. Therefore, it is recommended
+    to use the same averaging method to avoid numerical discrepancies during testing.
+
     Parameters
     ----------
     row_matrix : np.ndarray
