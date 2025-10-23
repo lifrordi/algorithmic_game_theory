@@ -50,6 +50,10 @@ def test_support_enumeration_general_sum(
     equilibria = week02.support_enumeration(row_matrix, col_matrix)
     equilibria = sorted(equilibria, key=lambda x: (x[0].tobytes(), x[1].tobytes()))
 
+    for row_strategy, col_strategy in equilibria:
+        assert row_strategy.dtype == np.float64, 'Incorrect dtype!'
+        assert col_strategy.dtype == np.float64, 'Incorrect dtype!'
+
     ndarrays_regression.check(
         {f'{i}': np.concatenate(x) for i, x in enumerate(equilibria)},
         f'{request.node.originalname}{request.node.callspec.indices["general_sum_data_stream"]}',
