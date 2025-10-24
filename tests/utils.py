@@ -103,6 +103,13 @@ def create_random_strategy(num_actions: int, rng: np.random.Generator) -> np.nda
         return _create_random_mixed_strategy(num_actions, rng)
 
 
+def create_random_support(num_actions: int, rng: np.random.Generator) -> np.ndarray:
+    support_size = rng.integers(1, num_actions + 1, None)
+    support = rng.choice(num_actions, support_size, replace=False)
+
+    return support
+
+
 def parameterize_classical_tests(zero_sum_only: bool, rng: np.random.Generator) -> Generator:
     games = {
         'prisoners_dilemma': (
