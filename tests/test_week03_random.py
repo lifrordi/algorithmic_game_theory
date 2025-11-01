@@ -106,17 +106,26 @@ def test_fictitious_play(
 ) -> None:
     row_matrix, col_matrix, *_ = next(zero_sum_data_stream)
 
-    strategies = week03.fictitious_play(row_matrix, col_matrix, num_iters=1000, naive=False)
-    final_exploitability = week03.compute_exploitability(row_matrix, col_matrix, *strategies[-1])
+    strategies = week03.fictitious_play(row_matrix, col_matrix, num_iters=5, naive=False)
+    exploitability = week03.compute_exploitability(row_matrix, col_matrix, *strategies[-1])
+
+    assert len(strategies) == 5, 'Incorrect number of strategies returned!'
 
     for row_strategy, col_strategy in strategies:
         assert row_strategy.dtype == np.float64, 'Incorrect dtype!'
         assert col_strategy.dtype == np.float64, 'Incorrect dtype!'
 
-    assert final_exploitability.dtype == np.float64, 'Incorrect dtype!'
+        assert np.isclose(np.sum(row_strategy), 1.0), 'Strategy does not sum to 1!'
+        assert np.isclose(np.sum(col_strategy), 1.0), 'Strategy does not sum to 1!'
+
+    assert exploitability.dtype == np.float64, 'Incorrect dtype!'
 
     ndarrays_regression.check(
-        {'final_exploitability': final_exploitability},
+        {
+            'row_strategy': np.round(strategies[-1][0], 8),
+            'col_strategy': np.round(strategies[-1][1], 8),
+            'exploitability': np.round(exploitability, 8),
+        },
         f'{request.node.originalname}{request.node.callspec.indices["zero_sum_data_stream"]}',
     )
 
@@ -129,16 +138,25 @@ def test_fictitious_play_naive(
 ) -> None:
     row_matrix, col_matrix, *_ = next(zero_sum_data_stream)
 
-    strategies = week03.fictitious_play(row_matrix, col_matrix, num_iters=1000, naive=True)
-    final_exploitability = week03.compute_exploitability(row_matrix, col_matrix, *strategies[-1])
+    strategies = week03.fictitious_play(row_matrix, col_matrix, num_iters=5, naive=True)
+    exploitability = week03.compute_exploitability(row_matrix, col_matrix, *strategies[-1])
+
+    assert len(strategies) == 5, 'Incorrect number of strategies returned!'
 
     for row_strategy, col_strategy in strategies:
         assert row_strategy.dtype == np.float64, 'Incorrect dtype!'
         assert col_strategy.dtype == np.float64, 'Incorrect dtype!'
 
-    assert final_exploitability.dtype == np.float64, 'Incorrect dtype!'
+        assert np.isclose(np.sum(row_strategy), 1.0), 'Strategy does not sum to 1!'
+        assert np.isclose(np.sum(col_strategy), 1.0), 'Strategy does not sum to 1!'
+
+    assert exploitability.dtype == np.float64, 'Incorrect dtype!'
 
     ndarrays_regression.check(
-        {'final_exploitability': final_exploitability},
+        {
+            'row_strategy': np.round(strategies[-1][0], 8),
+            'col_strategy': np.round(strategies[-1][1], 8),
+            'exploitability': np.round(exploitability, 8),
+        },
         f'{request.node.originalname}{request.node.callspec.indices["zero_sum_data_stream"]}',
     )
