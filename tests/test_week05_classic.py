@@ -58,6 +58,9 @@ def test_double_oracle(
         assert row_support.dtype == np.int64, 'Incorrect dtype!'
         assert col_support.dtype == np.int64, 'Incorrect dtype!'
 
+        assert np.isclose(np.sum(row_strategy), 1.0), 'Strategy does not sum to 1!'
+        assert np.isclose(np.sum(col_strategy), 1.0), 'Strategy does not sum to 1!'
+
     assert exploitability.dtype == np.float64, 'Incorrect dtype!'
 
     ndarrays_regression.check(
