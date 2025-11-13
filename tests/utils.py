@@ -107,7 +107,7 @@ def create_random_support(num_actions: int, rng: np.random.Generator) -> np.ndar
     support_size = rng.integers(1, num_actions + 1, None)
     support = rng.choice(num_actions, support_size, replace=False)
 
-    return support
+    return np.sort(support)
 
 
 def parameterize_classical_tests(zero_sum_only: bool, rng: np.random.Generator) -> Generator:
