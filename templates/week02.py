@@ -23,6 +23,9 @@ def verify_support(
     """Construct a system of linear equations to check whether there
     exists a candidate for a Nash equilibrium for the given supports.
 
+    This function is not supposed to check if actions outside of the
+    given support lead to a higher payoff than the found strategy.
+
     The reference implementation uses `scipy.optimize.linprog`
     with the default solver -- 'highs'. You can find more information at
     https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.linprog.html
