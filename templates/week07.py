@@ -42,6 +42,12 @@ def compute_average_strategy(*args, **kwargs):
     raise NotImplementedError
 
 
+def fictitious_play(*args, **kwargs):
+    """Run Extensive-form Fictitious Play for a given number of iterations."""
+
+    raise NotImplementedError
+
+
 def compute_exploitability(*args, **kwargs):
     """Compute and plot the exploitability of a sequence of strategy profiles."""
 
