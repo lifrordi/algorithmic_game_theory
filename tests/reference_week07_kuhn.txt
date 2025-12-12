@@ -13,7 +13,7 @@ Iter 1: Avg. strategy of P2 at ('', 'K', 'Check'): Bet: 0.50000, Check: 0.50000
 Iter 1: Avg. strategy of P2 at ('', 'K', 'Bet'): Call: 0.50000, Fold: 0.50000
 Iter 1: BR of P1 against P2's avg. strategy at ('J', ''): Bet: 1.00000, Check: 0.00000
 Iter 1: BR of P1 against P2's avg. strategy at ('Q', ''): Bet: 1.00000, Check: 0.00000
-Iter 1: BR of P1 against P2's avg. strategy at ('K', ''): Bet: 0.00000, Check: 1.00000
+Iter 1: BR of P1 against P2's avg. strategy at ('K', ''): Bet: 1.00000, Check: 0.00000
 Iter 1: BR of P1 against P2's avg. strategy at ('J', '', 'Check', 'Bet'): Call: 0.00000, Fold: 1.00000
 Iter 1: BR of P1 against P2's avg. strategy at ('Q', '', 'Check', 'Bet'): Call: 1.00000, Fold: 0.00000
 Iter 1: BR of P1 against P2's avg. strategy at ('K', '', 'Check', 'Bet'): Call: 1.00000, Fold: 0.00000
@@ -24,13 +24,13 @@ Iter 1: BR of P2 against P1's avg. strategy at ('', 'Q', 'Bet'): Call: 1.00000, 
 Iter 1: BR of P2 against P1's avg. strategy at ('', 'K', 'Check'): Bet: 1.00000, Check: 0.00000
 Iter 1: BR of P2 against P1's avg. strategy at ('', 'K', 'Bet'): Call: 1.00000, Fold: 0.00000
 
-Iter 2: Utility of avg. strategies: 0.01042, -0.01042
+Iter 2: Utility of avg. strategies: -0.03125, 0.03125
 Iter 2: Avg. strategy of P1 at ('J', ''): Bet: 0.75000, Check: 0.25000
 Iter 2: Avg. strategy of P1 at ('Q', ''): Bet: 0.75000, Check: 0.25000
-Iter 2: Avg. strategy of P1 at ('K', ''): Bet: 0.25000, Check: 0.75000
+Iter 2: Avg. strategy of P1 at ('K', ''): Bet: 0.75000, Check: 0.25000
 Iter 2: Avg. strategy of P1 at ('J', '', 'Check', 'Bet'): Call: 0.50000, Fold: 0.50000
 Iter 2: Avg. strategy of P1 at ('Q', '', 'Check', 'Bet'): Call: 0.50000, Fold: 0.50000
-Iter 2: Avg. strategy of P1 at ('K', '', 'Check', 'Bet'): Call: 0.83333, Fold: 0.16667
+Iter 2: Avg. strategy of P1 at ('K', '', 'Check', 'Bet'): Call: 0.50000, Fold: 0.50000
 Iter 2: Avg. strategy of P2 at ('', 'J', 'Check'): Bet: 0.75000, Check: 0.25000
 Iter 2: Avg. strategy of P2 at ('', 'J', 'Bet'): Call: 0.25000, Fold: 0.75000
 Iter 2: Avg. strategy of P2 at ('', 'Q', 'Check'): Bet: 0.75000, Check: 0.25000
@@ -38,34 +38,34 @@ Iter 2: Avg. strategy of P2 at ('', 'Q', 'Bet'): Call: 0.75000, Fold: 0.25000
 Iter 2: Avg. strategy of P2 at ('', 'K', 'Check'): Bet: 0.75000, Check: 0.25000
 Iter 2: Avg. strategy of P2 at ('', 'K', 'Bet'): Call: 0.75000, Fold: 0.25000
 Iter 2: BR of P1 against P2's avg. strategy at ('J', ''): Bet: 0.00000, Check: 1.00000
-Iter 2: BR of P1 against P2's avg. strategy at ('Q', ''): Bet: 0.00000, Check: 1.00000
+Iter 2: BR of P1 against P2's avg. strategy at ('Q', ''): Bet: 1.00000, Check: 0.00000
 Iter 2: BR of P1 against P2's avg. strategy at ('K', ''): Bet: 0.00000, Check: 1.00000
 Iter 2: BR of P1 against P2's avg. strategy at ('J', '', 'Check', 'Bet'): Call: 0.00000, Fold: 1.00000
 Iter 2: BR of P1 against P2's avg. strategy at ('Q', '', 'Check', 'Bet'): Call: 1.00000, Fold: 0.00000
 Iter 2: BR of P1 against P2's avg. strategy at ('K', '', 'Check', 'Bet'): Call: 1.00000, Fold: 0.00000
-Iter 2: BR of P2 against P1's avg. strategy at ('', 'J', 'Check'): Bet: 0.00000, Check: 1.00000
+Iter 2: BR of P2 against P1's avg. strategy at ('', 'J', 'Check'): Bet: 1.00000, Check: 0.00000
 Iter 2: BR of P2 against P1's avg. strategy at ('', 'J', 'Bet'): Call: 0.00000, Fold: 1.00000
-Iter 2: BR of P2 against P1's avg. strategy at ('', 'Q', 'Check'): Bet: 0.00000, Check: 1.00000
+Iter 2: BR of P2 against P1's avg. strategy at ('', 'Q', 'Check'): Bet: 1.00000, Check: 0.00000
 Iter 2: BR of P2 against P1's avg. strategy at ('', 'Q', 'Bet'): Call: 1.00000, Fold: 0.00000
 Iter 2: BR of P2 against P1's avg. strategy at ('', 'K', 'Check'): Bet: 1.00000, Check: 0.00000
 Iter 2: BR of P2 against P1's avg. strategy at ('', 'K', 'Bet'): Call: 1.00000, Fold: 0.00000
 
-Iter 3: Utility of avg. strategies: -0.04167, 0.04167
+Iter 3: Utility of avg. strategies: -0.02315, 0.02315
 Iter 3: Avg. strategy of P1 at ('J', ''): Bet: 0.50000, Check: 0.50000
-Iter 3: Avg. strategy of P1 at ('Q', ''): Bet: 0.50000, Check: 0.50000
-Iter 3: Avg. strategy of P1 at ('K', ''): Bet: 0.16667, Check: 0.83333
+Iter 3: Avg. strategy of P1 at ('Q', ''): Bet: 0.83333, Check: 0.16667
+Iter 3: Avg. strategy of P1 at ('K', ''): Bet: 0.50000, Check: 0.50000
 Iter 3: Avg. strategy of P1 at ('J', '', 'Check', 'Bet'): Call: 0.16667, Fold: 0.83333
-Iter 3: Avg. strategy of P1 at ('Q', '', 'Check', 'Bet'): Call: 0.83333, Fold: 0.16667
-Iter 3: Avg. strategy of P1 at ('K', '', 'Check', 'Bet'): Call: 0.90000, Fold: 0.10000
-Iter 3: Avg. strategy of P2 at ('', 'J', 'Check'): Bet: 0.50000, Check: 0.50000
+Iter 3: Avg. strategy of P1 at ('Q', '', 'Check', 'Bet'): Call: 0.50000, Fold: 0.50000
+Iter 3: Avg. strategy of P1 at ('K', '', 'Check', 'Bet'): Call: 0.83333, Fold: 0.16667
+Iter 3: Avg. strategy of P2 at ('', 'J', 'Check'): Bet: 0.83333, Check: 0.16667
 Iter 3: Avg. strategy of P2 at ('', 'J', 'Bet'): Call: 0.16667, Fold: 0.83333
-Iter 3: Avg. strategy of P2 at ('', 'Q', 'Check'): Bet: 0.50000, Check: 0.50000
+Iter 3: Avg. strategy of P2 at ('', 'Q', 'Check'): Bet: 0.83333, Check: 0.16667
 Iter 3: Avg. strategy of P2 at ('', 'Q', 'Bet'): Call: 0.83333, Fold: 0.16667
 Iter 3: Avg. strategy of P2 at ('', 'K', 'Check'): Bet: 0.83333, Check: 0.16667
 Iter 3: Avg. strategy of P2 at ('', 'K', 'Bet'): Call: 0.83333, Fold: 0.16667
 Iter 3: BR of P1 against P2's avg. strategy at ('J', ''): Bet: 0.00000, Check: 1.00000
-Iter 3: BR of P1 against P2's avg. strategy at ('Q', ''): Bet: 1.00000, Check: 0.00000
-Iter 3: BR of P1 against P2's avg. strategy at ('K', ''): Bet: 1.00000, Check: 0.00000
+Iter 3: BR of P1 against P2's avg. strategy at ('Q', ''): Bet: 0.00000, Check: 1.00000
+Iter 3: BR of P1 against P2's avg. strategy at ('K', ''): Bet: 0.00000, Check: 1.00000
 Iter 3: BR of P1 against P2's avg. strategy at ('J', '', 'Check', 'Bet'): Call: 0.00000, Fold: 1.00000
 Iter 3: BR of P1 against P2's avg. strategy at ('Q', '', 'Check', 'Bet'): Call: 1.00000, Fold: 0.00000
 Iter 3: BR of P1 against P2's avg. strategy at ('K', '', 'Check', 'Bet'): Call: 1.00000, Fold: 0.00000
@@ -76,22 +76,22 @@ Iter 3: BR of P2 against P1's avg. strategy at ('', 'Q', 'Bet'): Call: 1.00000, 
 Iter 3: BR of P2 against P1's avg. strategy at ('', 'K', 'Check'): Bet: 1.00000, Check: 0.00000
 Iter 3: BR of P2 against P1's avg. strategy at ('', 'K', 'Bet'): Call: 1.00000, Fold: 0.00000
 
-Iter 4: Utility of avg. strategies: -0.05990, 0.05990
+Iter 4: Utility of avg. strategies: -0.01823, 0.01823
 Iter 4: Avg. strategy of P1 at ('J', ''): Bet: 0.37500, Check: 0.62500
 Iter 4: Avg. strategy of P1 at ('Q', ''): Bet: 0.62500, Check: 0.37500
 Iter 4: Avg. strategy of P1 at ('K', ''): Bet: 0.37500, Check: 0.62500
 Iter 4: Avg. strategy of P1 at ('J', '', 'Check', 'Bet'): Call: 0.10000, Fold: 0.90000
 Iter 4: Avg. strategy of P1 at ('Q', '', 'Check', 'Bet'): Call: 0.83333, Fold: 0.16667
 Iter 4: Avg. strategy of P1 at ('K', '', 'Check', 'Bet'): Call: 0.90000, Fold: 0.10000
-Iter 4: Avg. strategy of P2 at ('', 'J', 'Check'): Bet: 0.37500, Check: 0.62500
+Iter 4: Avg. strategy of P2 at ('', 'J', 'Check'): Bet: 0.62500, Check: 0.37500
 Iter 4: Avg. strategy of P2 at ('', 'J', 'Bet'): Call: 0.12500, Fold: 0.87500
-Iter 4: Avg. strategy of P2 at ('', 'Q', 'Check'): Bet: 0.37500, Check: 0.62500
+Iter 4: Avg. strategy of P2 at ('', 'Q', 'Check'): Bet: 0.62500, Check: 0.37500
 Iter 4: Avg. strategy of P2 at ('', 'Q', 'Bet'): Call: 0.87500, Fold: 0.12500
 Iter 4: Avg. strategy of P2 at ('', 'K', 'Check'): Bet: 0.87500, Check: 0.12500
 Iter 4: Avg. strategy of P2 at ('', 'K', 'Bet'): Call: 0.87500, Fold: 0.12500
 Iter 4: BR of P1 against P2's avg. strategy at ('J', ''): Bet: 0.00000, Check: 1.00000
 Iter 4: BR of P1 against P2's avg. strategy at ('Q', ''): Bet: 0.00000, Check: 1.00000
-Iter 4: BR of P1 against P2's avg. strategy at ('K', ''): Bet: 1.00000, Check: 0.00000
+Iter 4: BR of P1 against P2's avg. strategy at ('K', ''): Bet: 0.00000, Check: 1.00000
 Iter 4: BR of P1 against P2's avg. strategy at ('J', '', 'Check', 'Bet'): Call: 0.00000, Fold: 1.00000
 Iter 4: BR of P1 against P2's avg. strategy at ('Q', '', 'Check', 'Bet'): Call: 1.00000, Fold: 0.00000
 Iter 4: BR of P1 against P2's avg. strategy at ('K', '', 'Check', 'Bet'): Call: 1.00000, Fold: 0.00000
@@ -102,16 +102,16 @@ Iter 4: BR of P2 against P1's avg. strategy at ('', 'Q', 'Bet'): Call: 1.00000, 
 Iter 4: BR of P2 against P1's avg. strategy at ('', 'K', 'Check'): Bet: 1.00000, Check: 0.00000
 Iter 4: BR of P2 against P1's avg. strategy at ('', 'K', 'Bet'): Call: 1.00000, Fold: 0.00000
 
-Iter 5: Utility of avg. strategies: -0.06167, 0.06167
+Iter 5: Utility of avg. strategies: -0.02833, 0.02833
 Iter 5: Avg. strategy of P1 at ('J', ''): Bet: 0.30000, Check: 0.70000
 Iter 5: Avg. strategy of P1 at ('Q', ''): Bet: 0.50000, Check: 0.50000
-Iter 5: Avg. strategy of P1 at ('K', ''): Bet: 0.50000, Check: 0.50000
+Iter 5: Avg. strategy of P1 at ('K', ''): Bet: 0.30000, Check: 0.70000
 Iter 5: Avg. strategy of P1 at ('J', '', 'Check', 'Bet'): Call: 0.07143, Fold: 0.92857
 Iter 5: Avg. strategy of P1 at ('Q', '', 'Check', 'Bet'): Call: 0.90000, Fold: 0.10000
-Iter 5: Avg. strategy of P1 at ('K', '', 'Check', 'Bet'): Call: 0.90000, Fold: 0.10000
-Iter 5: Avg. strategy of P2 at ('', 'J', 'Check'): Bet: 0.30000, Check: 0.70000
+Iter 5: Avg. strategy of P1 at ('K', '', 'Check', 'Bet'): Call: 0.92857, Fold: 0.07143
+Iter 5: Avg. strategy of P2 at ('', 'J', 'Check'): Bet: 0.50000, Check: 0.50000
 Iter 5: Avg. strategy of P2 at ('', 'J', 'Bet'): Call: 0.10000, Fold: 0.90000
-Iter 5: Avg. strategy of P2 at ('', 'Q', 'Check'): Bet: 0.30000, Check: 0.70000
+Iter 5: Avg. strategy of P2 at ('', 'Q', 'Check'): Bet: 0.50000, Check: 0.50000
 Iter 5: Avg. strategy of P2 at ('', 'Q', 'Bet'): Call: 0.90000, Fold: 0.10000
 Iter 5: Avg. strategy of P2 at ('', 'K', 'Check'): Bet: 0.90000, Check: 0.10000
 Iter 5: Avg. strategy of P2 at ('', 'K', 'Bet'): Call: 0.90000, Fold: 0.10000
@@ -119,7 +119,7 @@ Iter 5: BR of P1 against P2's avg. strategy at ('J', ''): Bet: 0.00000, Check: 1
 Iter 5: BR of P1 against P2's avg. strategy at ('Q', ''): Bet: 0.00000, Check: 1.00000
 Iter 5: BR of P1 against P2's avg. strategy at ('K', ''): Bet: 1.00000, Check: 0.00000
 Iter 5: BR of P1 against P2's avg. strategy at ('J', '', 'Check', 'Bet'): Call: 0.00000, Fold: 1.00000
-Iter 5: BR of P1 against P2's avg. strategy at ('Q', '', 'Check', 'Bet'): Call: 0.00000, Fold: 1.00000
+Iter 5: BR of P1 against P2's avg. strategy at ('Q', '', 'Check', 'Bet'): Call: 1.00000, Fold: 0.00000
 Iter 5: BR of P1 against P2's avg. strategy at ('K', '', 'Check', 'Bet'): Call: 1.00000, Fold: 0.00000
 Iter 5: BR of P2 against P1's avg. strategy at ('', 'J', 'Check'): Bet: 0.00000, Check: 1.00000
 Iter 5: BR of P2 against P1's avg. strategy at ('', 'J', 'Bet'): Call: 0.00000, Fold: 1.00000
@@ -128,16 +128,16 @@ Iter 5: BR of P2 against P1's avg. strategy at ('', 'Q', 'Bet'): Call: 1.00000, 
 Iter 5: BR of P2 against P1's avg. strategy at ('', 'K', 'Check'): Bet: 1.00000, Check: 0.00000
 Iter 5: BR of P2 against P1's avg. strategy at ('', 'K', 'Bet'): Call: 1.00000, Fold: 0.00000
 
-Iter 6: Utility of avg. strategies: -0.05440, 0.05440
+Iter 6: Utility of avg. strategies: -0.03588, 0.03588
 Iter 6: Avg. strategy of P1 at ('J', ''): Bet: 0.25000, Check: 0.75000
 Iter 6: Avg. strategy of P1 at ('Q', ''): Bet: 0.41667, Check: 0.58333
-Iter 6: Avg. strategy of P1 at ('K', ''): Bet: 0.58333, Check: 0.41667
+Iter 6: Avg. strategy of P1 at ('K', ''): Bet: 0.41667, Check: 0.58333
 Iter 6: Avg. strategy of P1 at ('J', '', 'Check', 'Bet'): Call: 0.05556, Fold: 0.94444
-Iter 6: Avg. strategy of P1 at ('Q', '', 'Check', 'Bet'): Call: 0.64286, Fold: 0.35714
-Iter 6: Avg. strategy of P1 at ('K', '', 'Check', 'Bet'): Call: 0.90000, Fold: 0.10000
-Iter 6: Avg. strategy of P2 at ('', 'J', 'Check'): Bet: 0.25000, Check: 0.75000
+Iter 6: Avg. strategy of P1 at ('Q', '', 'Check', 'Bet'): Call: 0.92857, Fold: 0.07143
+Iter 6: Avg. strategy of P1 at ('K', '', 'Check', 'Bet'): Call: 0.92857, Fold: 0.07143
+Iter 6: Avg. strategy of P2 at ('', 'J', 'Check'): Bet: 0.41667, Check: 0.58333
 Iter 6: Avg. strategy of P2 at ('', 'J', 'Bet'): Call: 0.08333, Fold: 0.91667
-Iter 6: Avg. strategy of P2 at ('', 'Q', 'Check'): Bet: 0.25000, Check: 0.75000
+Iter 6: Avg. strategy of P2 at ('', 'Q', 'Check'): Bet: 0.41667, Check: 0.58333
 Iter 6: Avg. strategy of P2 at ('', 'Q', 'Bet'): Call: 0.91667, Fold: 0.08333
 Iter 6: Avg. strategy of P2 at ('', 'K', 'Check'): Bet: 0.91667, Check: 0.08333
 Iter 6: Avg. strategy of P2 at ('', 'K', 'Bet'): Call: 0.91667, Fold: 0.08333
@@ -145,7 +145,7 @@ Iter 6: BR of P1 against P2's avg. strategy at ('J', ''): Bet: 0.00000, Check: 1
 Iter 6: BR of P1 against P2's avg. strategy at ('Q', ''): Bet: 0.00000, Check: 1.00000
 Iter 6: BR of P1 against P2's avg. strategy at ('K', ''): Bet: 1.00000, Check: 0.00000
 Iter 6: BR of P1 against P2's avg. strategy at ('J', '', 'Check', 'Bet'): Call: 0.00000, Fold: 1.00000
-Iter 6: BR of P1 against P2's avg. strategy at ('Q', '', 'Check', 'Bet'): Call: 0.00000, Fold: 1.00000
+Iter 6: BR of P1 against P2's avg. strategy at ('Q', '', 'Check', 'Bet'): Call: 1.00000, Fold: 0.00000
 Iter 6: BR of P1 against P2's avg. strategy at ('K', '', 'Check', 'Bet'): Call: 1.00000, Fold: 0.00000
 Iter 6: BR of P2 against P1's avg. strategy at ('', 'J', 'Check'): Bet: 0.00000, Check: 1.00000
 Iter 6: BR of P2 against P1's avg. strategy at ('', 'J', 'Bet'): Call: 0.00000, Fold: 1.00000
@@ -154,16 +154,16 @@ Iter 6: BR of P2 against P1's avg. strategy at ('', 'Q', 'Bet'): Call: 1.00000, 
 Iter 6: BR of P2 against P1's avg. strategy at ('', 'K', 'Check'): Bet: 1.00000, Check: 0.00000
 Iter 6: BR of P2 against P1's avg. strategy at ('', 'K', 'Bet'): Call: 1.00000, Fold: 0.00000
 
-Iter 7: Utility of avg. strategies: -0.04167, 0.04167
+Iter 7: Utility of avg. strategies: -0.03827, 0.03827
 Iter 7: Avg. strategy of P1 at ('J', ''): Bet: 0.21429, Check: 0.78571
 Iter 7: Avg. strategy of P1 at ('Q', ''): Bet: 0.35714, Check: 0.64286
-Iter 7: Avg. strategy of P1 at ('K', ''): Bet: 0.64286, Check: 0.35714
+Iter 7: Avg. strategy of P1 at ('K', ''): Bet: 0.50000, Check: 0.50000
 Iter 7: Avg. strategy of P1 at ('J', '', 'Check', 'Bet'): Call: 0.04545, Fold: 0.95455
-Iter 7: Avg. strategy of P1 at ('Q', '', 'Check', 'Bet'): Call: 0.50000, Fold: 0.50000
-Iter 7: Avg. strategy of P1 at ('K', '', 'Check', 'Bet'): Call: 0.90000, Fold: 0.10000
-Iter 7: Avg. strategy of P2 at ('', 'J', 'Check'): Bet: 0.21429, Check: 0.78571
+Iter 7: Avg. strategy of P1 at ('Q', '', 'Check', 'Bet'): Call: 0.94444, Fold: 0.05556
+Iter 7: Avg. strategy of P1 at ('K', '', 'Check', 'Bet'): Call: 0.92857, Fold: 0.07143
+Iter 7: Avg. strategy of P2 at ('', 'J', 'Check'): Bet: 0.35714, Check: 0.64286
 Iter 7: Avg. strategy of P2 at ('', 'J', 'Bet'): Call: 0.07143, Fold: 0.92857
-Iter 7: Avg. strategy of P2 at ('', 'Q', 'Check'): Bet: 0.21429, Check: 0.78571
+Iter 7: Avg. strategy of P2 at ('', 'Q', 'Check'): Bet: 0.35714, Check: 0.64286
 Iter 7: Avg. strategy of P2 at ('', 'Q', 'Bet'): Call: 0.92857, Fold: 0.07143
 Iter 7: Avg. strategy of P2 at ('', 'K', 'Check'): Bet: 0.92857, Check: 0.07143
 Iter 7: Avg. strategy of P2 at ('', 'K', 'Bet'): Call: 0.92857, Fold: 0.07143
@@ -171,87 +171,87 @@ Iter 7: BR of P1 against P2's avg. strategy at ('J', ''): Bet: 0.00000, Check: 1
 Iter 7: BR of P1 against P2's avg. strategy at ('Q', ''): Bet: 0.00000, Check: 1.00000
 Iter 7: BR of P1 against P2's avg. strategy at ('K', ''): Bet: 1.00000, Check: 0.00000
 Iter 7: BR of P1 against P2's avg. strategy at ('J', '', 'Check', 'Bet'): Call: 0.00000, Fold: 1.00000
-Iter 7: BR of P1 against P2's avg. strategy at ('Q', '', 'Check', 'Bet'): Call: 0.00000, Fold: 1.00000
+Iter 7: BR of P1 against P2's avg. strategy at ('Q', '', 'Check', 'Bet'): Call: 1.00000, Fold: 0.00000
 Iter 7: BR of P1 against P2's avg. strategy at ('K', '', 'Check', 'Bet'): Call: 1.00000, Fold: 0.00000
-Iter 7: BR of P2 against P1's avg. strategy at ('', 'J', 'Check'): Bet: 1.00000, Check: 0.00000
+Iter 7: BR of P2 against P1's avg. strategy at ('', 'J', 'Check'): Bet: 0.00000, Check: 1.00000
 Iter 7: BR of P2 against P1's avg. strategy at ('', 'J', 'Bet'): Call: 0.00000, Fold: 1.00000
 Iter 7: BR of P2 against P1's avg. strategy at ('', 'Q', 'Check'): Bet: 0.00000, Check: 1.00000
-Iter 7: BR of P2 against P1's avg. strategy at ('', 'Q', 'Bet'): Call: 0.00000, Fold: 1.00000
+Iter 7: BR of P2 against P1's avg. strategy at ('', 'Q', 'Bet'): Call: 1.00000, Fold: 0.00000
 Iter 7: BR of P2 against P1's avg. strategy at ('', 'K', 'Check'): Bet: 1.00000, Check: 0.00000
 Iter 7: BR of P2 against P1's avg. strategy at ('', 'K', 'Bet'): Call: 1.00000, Fold: 0.00000
 
-Iter 8: Utility of avg. strategies: -0.03711, 0.03711
+Iter 8: Utility of avg. strategies: -0.03841, 0.03841
 Iter 8: Avg. strategy of P1 at ('J', ''): Bet: 0.18750, Check: 0.81250
 Iter 8: Avg. strategy of P1 at ('Q', ''): Bet: 0.31250, Check: 0.68750
-Iter 8: Avg. strategy of P1 at ('K', ''): Bet: 0.68750, Check: 0.31250
+Iter 8: Avg. strategy of P1 at ('K', ''): Bet: 0.56250, Check: 0.43750
 Iter 8: Avg. strategy of P1 at ('J', '', 'Check', 'Bet'): Call: 0.03846, Fold: 0.96154
-Iter 8: Avg. strategy of P1 at ('Q', '', 'Check', 'Bet'): Call: 0.40909, Fold: 0.59091
-Iter 8: Avg. strategy of P1 at ('K', '', 'Check', 'Bet'): Call: 0.90000, Fold: 0.10000
+Iter 8: Avg. strategy of P1 at ('Q', '', 'Check', 'Bet'): Call: 0.95455, Fold: 0.04545
+Iter 8: Avg. strategy of P1 at ('K', '', 'Check', 'Bet'): Call: 0.92857, Fold: 0.07143
 Iter 8: Avg. strategy of P2 at ('', 'J', 'Check'): Bet: 0.31250, Check: 0.68750
 Iter 8: Avg. strategy of P2 at ('', 'J', 'Bet'): Call: 0.06250, Fold: 0.93750
-Iter 8: Avg. strategy of P2 at ('', 'Q', 'Check'): Bet: 0.18750, Check: 0.81250
-Iter 8: Avg. strategy of P2 at ('', 'Q', 'Bet'): Call: 0.81250, Fold: 0.18750
+Iter 8: Avg. strategy of P2 at ('', 'Q', 'Check'): Bet: 0.31250, Check: 0.68750
+Iter 8: Avg. strategy of P2 at ('', 'Q', 'Bet'): Call: 0.93750, Fold: 0.06250
 Iter 8: Avg. strategy of P2 at ('', 'K', 'Check'): Bet: 0.93750, Check: 0.06250
 Iter 8: Avg. strategy of P2 at ('', 'K', 'Bet'): Call: 0.93750, Fold: 0.06250
 Iter 8: BR of P1 against P2's avg. strategy at ('J', ''): Bet: 0.00000, Check: 1.00000
 Iter 8: BR of P1 against P2's avg. strategy at ('Q', ''): Bet: 0.00000, Check: 1.00000
 Iter 8: BR of P1 against P2's avg. strategy at ('K', ''): Bet: 1.00000, Check: 0.00000
 Iter 8: BR of P1 against P2's avg. strategy at ('J', '', 'Check', 'Bet'): Call: 0.00000, Fold: 1.00000
-Iter 8: BR of P1 against P2's avg. strategy at ('Q', '', 'Check', 'Bet'): Call: 0.00000, Fold: 1.00000
+Iter 8: BR of P1 against P2's avg. strategy at ('Q', '', 'Check', 'Bet'): Call: 1.00000, Fold: 0.00000
 Iter 8: BR of P1 against P2's avg. strategy at ('K', '', 'Check', 'Bet'): Call: 1.00000, Fold: 0.00000
-Iter 8: BR of P2 against P1's avg. strategy at ('', 'J', 'Check'): Bet: 1.00000, Check: 0.00000
+Iter 8: BR of P2 against P1's avg. strategy at ('', 'J', 'Check'): Bet: 0.00000, Check: 1.00000
 Iter 8: BR of P2 against P1's avg. strategy at ('', 'J', 'Bet'): Call: 0.00000, Fold: 1.00000
 Iter 8: BR of P2 against P1's avg. strategy at ('', 'Q', 'Check'): Bet: 0.00000, Check: 1.00000
 Iter 8: BR of P2 against P1's avg. strategy at ('', 'Q', 'Bet'): Call: 0.00000, Fold: 1.00000
 Iter 8: BR of P2 against P1's avg. strategy at ('', 'K', 'Check'): Bet: 1.00000, Check: 0.00000
 Iter 8: BR of P2 against P1's avg. strategy at ('', 'K', 'Bet'): Call: 1.00000, Fold: 0.00000
 
-Iter 9: Utility of avg. strategies: -0.04167, 0.04167
+Iter 9: Utility of avg. strategies: -0.03961, 0.03961
 Iter 9: Avg. strategy of P1 at ('J', ''): Bet: 0.16667, Check: 0.83333
 Iter 9: Avg. strategy of P1 at ('Q', ''): Bet: 0.27778, Check: 0.72222
-Iter 9: Avg. strategy of P1 at ('K', ''): Bet: 0.72222, Check: 0.27778
+Iter 9: Avg. strategy of P1 at ('K', ''): Bet: 0.61111, Check: 0.38889
 Iter 9: Avg. strategy of P1 at ('J', '', 'Check', 'Bet'): Call: 0.03333, Fold: 0.96667
-Iter 9: Avg. strategy of P1 at ('Q', '', 'Check', 'Bet'): Call: 0.34615, Fold: 0.65385
-Iter 9: Avg. strategy of P1 at ('K', '', 'Check', 'Bet'): Call: 0.90000, Fold: 0.10000
-Iter 9: Avg. strategy of P2 at ('', 'J', 'Check'): Bet: 0.38889, Check: 0.61111
+Iter 9: Avg. strategy of P1 at ('Q', '', 'Check', 'Bet'): Call: 0.96154, Fold: 0.03846
+Iter 9: Avg. strategy of P1 at ('K', '', 'Check', 'Bet'): Call: 0.92857, Fold: 0.07143
+Iter 9: Avg. strategy of P2 at ('', 'J', 'Check'): Bet: 0.27778, Check: 0.72222
 Iter 9: Avg. strategy of P2 at ('', 'J', 'Bet'): Call: 0.05556, Fold: 0.94444
-Iter 9: Avg. strategy of P2 at ('', 'Q', 'Check'): Bet: 0.16667, Check: 0.83333
-Iter 9: Avg. strategy of P2 at ('', 'Q', 'Bet'): Call: 0.72222, Fold: 0.27778
+Iter 9: Avg. strategy of P2 at ('', 'Q', 'Check'): Bet: 0.27778, Check: 0.72222
+Iter 9: Avg. strategy of P2 at ('', 'Q', 'Bet'): Call: 0.83333, Fold: 0.16667
 Iter 9: Avg. strategy of P2 at ('', 'K', 'Check'): Bet: 0.94444, Check: 0.05556
 Iter 9: Avg. strategy of P2 at ('', 'K', 'Bet'): Call: 0.94444, Fold: 0.05556
 Iter 9: BR of P1 against P2's avg. strategy at ('J', ''): Bet: 0.00000, Check: 1.00000
 Iter 9: BR of P1 against P2's avg. strategy at ('Q', ''): Bet: 0.00000, Check: 1.00000
 Iter 9: BR of P1 against P2's avg. strategy at ('K', ''): Bet: 1.00000, Check: 0.00000
 Iter 9: BR of P1 against P2's avg. strategy at ('J', '', 'Check', 'Bet'): Call: 0.00000, Fold: 1.00000
-Iter 9: BR of P1 against P2's avg. strategy at ('Q', '', 'Check', 'Bet'): Call: 1.00000, Fold: 0.00000
+Iter 9: BR of P1 against P2's avg. strategy at ('Q', '', 'Check', 'Bet'): Call: 0.00000, Fold: 1.00000
 Iter 9: BR of P1 against P2's avg. strategy at ('K', '', 'Check', 'Bet'): Call: 1.00000, Fold: 0.00000
-Iter 9: BR of P2 against P1's avg. strategy at ('', 'J', 'Check'): Bet: 1.00000, Check: 0.00000
+Iter 9: BR of P2 against P1's avg. strategy at ('', 'J', 'Check'): Bet: 0.00000, Check: 1.00000
 Iter 9: BR of P2 against P1's avg. strategy at ('', 'J', 'Bet'): Call: 0.00000, Fold: 1.00000
 Iter 9: BR of P2 against P1's avg. strategy at ('', 'Q', 'Check'): Bet: 0.00000, Check: 1.00000
 Iter 9: BR of P2 against P1's avg. strategy at ('', 'Q', 'Bet'): Call: 0.00000, Fold: 1.00000
 Iter 9: BR of P2 against P1's avg. strategy at ('', 'K', 'Check'): Bet: 1.00000, Check: 0.00000
 Iter 9: BR of P2 against P1's avg. strategy at ('', 'K', 'Bet'): Call: 1.00000, Fold: 0.00000
 
-Iter 10: Utility of avg. strategies: -0.04375, 0.04375
+Iter 10: Utility of avg. strategies: -0.03958, 0.03958
 Iter 10: Avg. strategy of P1 at ('J', ''): Bet: 0.15000, Check: 0.85000
 Iter 10: Avg. strategy of P1 at ('Q', ''): Bet: 0.25000, Check: 0.75000
-Iter 10: Avg. strategy of P1 at ('K', ''): Bet: 0.75000, Check: 0.25000
+Iter 10: Avg. strategy of P1 at ('K', ''): Bet: 0.65000, Check: 0.35000
 Iter 10: Avg. strategy of P1 at ('J', '', 'Check', 'Bet'): Call: 0.02941, Fold: 0.97059
-Iter 10: Avg. strategy of P1 at ('Q', '', 'Check', 'Bet'): Call: 0.43333, Fold: 0.56667
-Iter 10: Avg. strategy of P1 at ('K', '', 'Check', 'Bet'): Call: 0.90000, Fold: 0.10000
-Iter 10: Avg. strategy of P2 at ('', 'J', 'Check'): Bet: 0.45000, Check: 0.55000
+Iter 10: Avg. strategy of P1 at ('Q', '', 'Check', 'Bet'): Call: 0.83333, Fold: 0.16667
+Iter 10: Avg. strategy of P1 at ('K', '', 'Check', 'Bet'): Call: 0.92857, Fold: 0.07143
+Iter 10: Avg. strategy of P2 at ('', 'J', 'Check'): Bet: 0.25000, Check: 0.75000
 Iter 10: Avg. strategy of P2 at ('', 'J', 'Bet'): Call: 0.05000, Fold: 0.95000
-Iter 10: Avg. strategy of P2 at ('', 'Q', 'Check'): Bet: 0.15000, Check: 0.85000
-Iter 10: Avg. strategy of P2 at ('', 'Q', 'Bet'): Call: 0.65000, Fold: 0.35000
+Iter 10: Avg. strategy of P2 at ('', 'Q', 'Check'): Bet: 0.25000, Check: 0.75000
+Iter 10: Avg. strategy of P2 at ('', 'Q', 'Bet'): Call: 0.75000, Fold: 0.25000
 Iter 10: Avg. strategy of P2 at ('', 'K', 'Check'): Bet: 0.95000, Check: 0.05000
 Iter 10: Avg. strategy of P2 at ('', 'K', 'Bet'): Call: 0.95000, Fold: 0.05000
 Iter 10: BR of P1 against P2's avg. strategy at ('J', ''): Bet: 0.00000, Check: 1.00000
 Iter 10: BR of P1 against P2's avg. strategy at ('Q', ''): Bet: 0.00000, Check: 1.00000
 Iter 10: BR of P1 against P2's avg. strategy at ('K', ''): Bet: 1.00000, Check: 0.00000
 Iter 10: BR of P1 against P2's avg. strategy at ('J', '', 'Check', 'Bet'): Call: 0.00000, Fold: 1.00000
-Iter 10: BR of P1 against P2's avg. strategy at ('Q', '', 'Check', 'Bet'): Call: 1.00000, Fold: 0.00000
+Iter 10: BR of P1 against P2's avg. strategy at ('Q', '', 'Check', 'Bet'): Call: 0.00000, Fold: 1.00000
 Iter 10: BR of P1 against P2's avg. strategy at ('K', '', 'Check', 'Bet'): Call: 1.00000, Fold: 0.00000
-Iter 10: BR of P2 against P1's avg. strategy at ('', 'J', 'Check'): Bet: 1.00000, Check: 0.00000
+Iter 10: BR of P2 against P1's avg. strategy at ('', 'J', 'Check'): Bet: 0.00000, Check: 1.00000
 Iter 10: BR of P2 against P1's avg. strategy at ('', 'J', 'Bet'): Call: 0.00000, Fold: 1.00000
 Iter 10: BR of P2 against P1's avg. strategy at ('', 'Q', 'Check'): Bet: 0.00000, Check: 1.00000
 Iter 10: BR of P2 against P1's avg. strategy at ('', 'Q', 'Bet'): Call: 0.00000, Fold: 1.00000
