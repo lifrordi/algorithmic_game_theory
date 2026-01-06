@@ -1,0 +1,389 @@
+Iter 1, Update of P1: Utility of avg. strategies: 0.12500, -0.12500
+Iter 1, Update of P1: Avg. strategy of P1 at ('J', ''): Bet: 0.50000, Check: 0.50000
+Iter 1, Update of P1: Avg. strategy of P1 at ('Q', ''): Bet: 0.50000, Check: 0.50000
+Iter 1, Update of P1: Avg. strategy of P1 at ('K', ''): Bet: 0.50000, Check: 0.50000
+Iter 1, Update of P1: Avg. strategy of P1 at ('J', '', 'Check', 'Bet'): Call: 0.50000, Fold: 0.50000
+Iter 1, Update of P1: Avg. strategy of P1 at ('Q', '', 'Check', 'Bet'): Call: 0.50000, Fold: 0.50000
+Iter 1, Update of P1: Avg. strategy of P1 at ('K', '', 'Check', 'Bet'): Call: 0.50000, Fold: 0.50000
+Iter 1, Update of P1: Avg. strategy of P2 at ('', 'J', 'Check'): Bet: 0.50000, Check: 0.50000
+Iter 1, Update of P1: Avg. strategy of P2 at ('', 'J', 'Bet'): Call: 0.50000, Fold: 0.50000
+Iter 1, Update of P1: Avg. strategy of P2 at ('', 'Q', 'Check'): Bet: 0.50000, Check: 0.50000
+Iter 1, Update of P1: Avg. strategy of P2 at ('', 'Q', 'Bet'): Call: 0.50000, Fold: 0.50000
+Iter 1, Update of P1: Avg. strategy of P2 at ('', 'K', 'Check'): Bet: 0.50000, Check: 0.50000
+Iter 1, Update of P1: Avg. strategy of P2 at ('', 'K', 'Bet'): Call: 0.50000, Fold: 0.50000
+Iter 1, Update of P1: Cumulative regrets of P1 at ('J', ''): Bet: 0.12500, Check: 0.00000
+Iter 1, Update of P1: Cumulative regrets of P1 at ('Q', ''): Bet: 0.12500, Check: 0.00000
+Iter 1, Update of P1: Cumulative regrets of P1 at ('K', ''): Bet: 0.12500, Check: 0.00000
+Iter 1, Update of P1: Cumulative regrets of P1 at ('J', '', 'Check', 'Bet'): Call: 0.00000, Fold: 0.08333
+Iter 1, Update of P1: Cumulative regrets of P1 at ('Q', '', 'Check', 'Bet'): Call: 0.08333, Fold: 0.00000
+Iter 1, Update of P1: Cumulative regrets of P1 at ('K', '', 'Check', 'Bet'): Call: 0.25000, Fold: 0.00000
+Iter 1, Update of P2: Utility of avg. strategies: 0.37500, -0.37500
+Iter 1, Update of P2: Avg. strategy of P1 at ('J', ''): Bet: 0.83333, Check: 0.16667
+Iter 1, Update of P2: Avg. strategy of P1 at ('Q', ''): Bet: 0.83333, Check: 0.16667
+Iter 1, Update of P2: Avg. strategy of P1 at ('K', ''): Bet: 0.83333, Check: 0.16667
+Iter 1, Update of P2: Avg. strategy of P1 at ('J', '', 'Check', 'Bet'): Call: 0.50000, Fold: 0.50000
+Iter 1, Update of P2: Avg. strategy of P1 at ('Q', '', 'Check', 'Bet'): Call: 0.50000, Fold: 0.50000
+Iter 1, Update of P2: Avg. strategy of P1 at ('K', '', 'Check', 'Bet'): Call: 0.50000, Fold: 0.50000
+Iter 1, Update of P2: Avg. strategy of P2 at ('', 'J', 'Check'): Bet: 0.50000, Check: 0.50000
+Iter 1, Update of P2: Avg. strategy of P2 at ('', 'J', 'Bet'): Call: 0.50000, Fold: 0.50000
+Iter 1, Update of P2: Avg. strategy of P2 at ('', 'Q', 'Check'): Bet: 0.50000, Check: 0.50000
+Iter 1, Update of P2: Avg. strategy of P2 at ('', 'Q', 'Bet'): Call: 0.50000, Fold: 0.50000
+Iter 1, Update of P2: Avg. strategy of P2 at ('', 'K', 'Check'): Bet: 0.50000, Check: 0.50000
+Iter 1, Update of P2: Avg. strategy of P2 at ('', 'K', 'Bet'): Call: 0.50000, Fold: 0.50000
+Iter 1, Update of P2: Cumulative regrets of P2 at ('', 'J', 'Check'): Bet: 0.00000, Check: 0.00000
+Iter 1, Update of P2: Cumulative regrets of P2 at ('', 'J', 'Bet'): Call: 0.00000, Fold: 0.16667
+Iter 1, Update of P2: Cumulative regrets of P2 at ('', 'Q', 'Check'): Bet: 0.00000, Check: 0.00000
+Iter 1, Update of P2: Cumulative regrets of P2 at ('', 'Q', 'Bet'): Call: 0.16667, Fold: 0.00000
+Iter 1, Update of P2: Cumulative regrets of P2 at ('', 'K', 'Check'): Bet: 0.00000, Check: 0.00000
+Iter 1, Update of P2: Cumulative regrets of P2 at ('', 'K', 'Bet'): Call: 0.50000, Fold: 0.00000
+
+Iter 2, Update of P1: Utility of avg. strategies: -0.08796, 0.08796
+Iter 2, Update of P1: Avg. strategy of P1 at ('J', ''): Bet: 0.83333, Check: 0.16667
+Iter 2, Update of P1: Avg. strategy of P1 at ('Q', ''): Bet: 0.83333, Check: 0.16667
+Iter 2, Update of P1: Avg. strategy of P1 at ('K', ''): Bet: 0.83333, Check: 0.16667
+Iter 2, Update of P1: Avg. strategy of P1 at ('J', '', 'Check', 'Bet'): Call: 0.50000, Fold: 0.50000
+Iter 2, Update of P1: Avg. strategy of P1 at ('Q', '', 'Check', 'Bet'): Call: 0.50000, Fold: 0.50000
+Iter 2, Update of P1: Avg. strategy of P1 at ('K', '', 'Check', 'Bet'): Call: 0.50000, Fold: 0.50000
+Iter 2, Update of P1: Avg. strategy of P2 at ('', 'J', 'Check'): Bet: 0.50000, Check: 0.50000
+Iter 2, Update of P1: Avg. strategy of P2 at ('', 'J', 'Bet'): Call: 0.16667, Fold: 0.83333
+Iter 2, Update of P1: Avg. strategy of P2 at ('', 'Q', 'Check'): Bet: 0.50000, Check: 0.50000
+Iter 2, Update of P1: Avg. strategy of P2 at ('', 'Q', 'Bet'): Call: 0.83333, Fold: 0.16667
+Iter 2, Update of P1: Avg. strategy of P2 at ('', 'K', 'Check'): Bet: 0.50000, Check: 0.50000
+Iter 2, Update of P1: Avg. strategy of P2 at ('', 'K', 'Bet'): Call: 0.83333, Fold: 0.16667
+Iter 2, Update of P1: Cumulative regrets of P1 at ('J', ''): Bet: 0.12500, Check: 0.33333
+Iter 2, Update of P1: Cumulative regrets of P1 at ('Q', ''): Bet: 0.12500, Check: 0.16667
+Iter 2, Update of P1: Cumulative regrets of P1 at ('K', ''): Bet: 0.12500, Check: 0.00000
+Iter 2, Update of P1: Cumulative regrets of P1 at ('J', '', 'Check', 'Bet'): Call: 0.00000, Fold: 0.08333
+Iter 2, Update of P1: Cumulative regrets of P1 at ('Q', '', 'Check', 'Bet'): Call: 0.08333, Fold: 0.00000
+Iter 2, Update of P1: Cumulative regrets of P1 at ('K', '', 'Check', 'Bet'): Call: 0.25000, Fold: 0.00000
+Iter 2, Update of P2: Utility of avg. strategies: 0.00472, -0.00472
+Iter 2, Update of P2: Avg. strategy of P1 at ('J', ''): Bet: 0.55303, Check: 0.44697
+Iter 2, Update of P2: Avg. strategy of P1 at ('Q', ''): Bet: 0.63095, Check: 0.36905
+Iter 2, Update of P2: Avg. strategy of P1 at ('K', ''): Bet: 0.91667, Check: 0.08333
+Iter 2, Update of P2: Avg. strategy of P1 at ('J', '', 'Check', 'Bet'): Call: 0.09322, Fold: 0.90678
+Iter 2, Update of P2: Avg. strategy of P1 at ('Q', '', 'Check', 'Bet'): Call: 0.88710, Fold: 0.11290
+Iter 2, Update of P2: Avg. strategy of P1 at ('K', '', 'Check', 'Bet'): Call: 0.50000, Fold: 0.50000
+Iter 2, Update of P2: Avg. strategy of P2 at ('', 'J', 'Check'): Bet: 0.50000, Check: 0.50000
+Iter 2, Update of P2: Avg. strategy of P2 at ('', 'J', 'Bet'): Call: 0.16667, Fold: 0.83333
+Iter 2, Update of P2: Avg. strategy of P2 at ('', 'Q', 'Check'): Bet: 0.50000, Check: 0.50000
+Iter 2, Update of P2: Avg. strategy of P2 at ('', 'Q', 'Bet'): Call: 0.83333, Fold: 0.16667
+Iter 2, Update of P2: Avg. strategy of P2 at ('', 'K', 'Check'): Bet: 0.50000, Check: 0.50000
+Iter 2, Update of P2: Avg. strategy of P2 at ('', 'K', 'Bet'): Call: 0.83333, Fold: 0.16667
+Iter 2, Update of P2: Cumulative regrets of P2 at ('', 'J', 'Check'): Bet: 0.00000, Check: 0.04762
+Iter 2, Update of P2: Cumulative regrets of P2 at ('', 'J', 'Bet'): Call: 0.00000, Fold: 0.16667
+Iter 2, Update of P2: Cumulative regrets of P2 at ('', 'Q', 'Check'): Bet: 0.00000, Check: 0.00000
+Iter 2, Update of P2: Cumulative regrets of P2 at ('', 'Q', 'Bet'): Call: 0.16667, Fold: 0.03030
+Iter 2, Update of P2: Cumulative regrets of P2 at ('', 'K', 'Check'): Bet: 0.04762, Check: 0.00000
+Iter 2, Update of P2: Cumulative regrets of P2 at ('', 'K', 'Bet'): Call: 0.50000, Fold: 0.00000
+
+Iter 3, Update of P1: Utility of avg. strategies: -0.09071, 0.09071
+Iter 3, Update of P1: Avg. strategy of P1 at ('J', ''): Bet: 0.55303, Check: 0.44697
+Iter 3, Update of P1: Avg. strategy of P1 at ('Q', ''): Bet: 0.63095, Check: 0.36905
+Iter 3, Update of P1: Avg. strategy of P1 at ('K', ''): Bet: 0.91667, Check: 0.08333
+Iter 3, Update of P1: Avg. strategy of P1 at ('J', '', 'Check', 'Bet'): Call: 0.09322, Fold: 0.90678
+Iter 3, Update of P1: Avg. strategy of P1 at ('Q', '', 'Check', 'Bet'): Call: 0.88710, Fold: 0.11290
+Iter 3, Update of P1: Avg. strategy of P1 at ('K', '', 'Check', 'Bet'): Call: 0.50000, Fold: 0.50000
+Iter 3, Update of P1: Avg. strategy of P2 at ('', 'J', 'Check'): Bet: 0.25000, Check: 0.75000
+Iter 3, Update of P1: Avg. strategy of P2 at ('', 'J', 'Bet'): Call: 0.08333, Fold: 0.91667
+Iter 3, Update of P1: Avg. strategy of P2 at ('', 'Q', 'Check'): Bet: 0.50000, Check: 0.50000
+Iter 3, Update of P1: Avg. strategy of P2 at ('', 'Q', 'Bet'): Call: 0.83974, Fold: 0.16026
+Iter 3, Update of P1: Avg. strategy of P2 at ('', 'K', 'Check'): Bet: 0.75000, Check: 0.25000
+Iter 3, Update of P1: Avg. strategy of P2 at ('', 'K', 'Bet'): Call: 0.91667, Fold: 0.08333
+Iter 3, Update of P1: Cumulative regrets of P1 at ('J', ''): Bet: 0.00000, Check: 0.40326
+Iter 3, Update of P1: Cumulative regrets of P1 at ('Q', ''): Bet: 0.12500, Check: 0.16667
+Iter 3, Update of P1: Cumulative regrets of P1 at ('K', ''): Bet: 0.12500, Check: 0.00000
+Iter 3, Update of P1: Cumulative regrets of P1 at ('J', '', 'Check', 'Bet'): Call: 0.00000, Fold: 0.08333
+Iter 3, Update of P1: Cumulative regrets of P1 at ('Q', '', 'Check', 'Bet'): Call: 0.08333, Fold: 0.16667
+Iter 3, Update of P1: Cumulative regrets of P1 at ('K', '', 'Check', 'Bet'): Call: 0.25000, Fold: 0.00000
+Iter 3, Update of P2: Utility of avg. strategies: -0.03098, 0.03098
+Iter 3, Update of P2: Avg. strategy of P1 at ('J', ''): Bet: 0.33182, Check: 0.66818
+Iter 3, Update of P2: Avg. strategy of P1 at ('Q', ''): Bet: 0.55000, Check: 0.45000
+Iter 3, Update of P2: Avg. strategy of P1 at ('K', ''): Bet: 0.95000, Check: 0.05000
+Iter 3, Update of P2: Avg. strategy of P1 at ('J', '', 'Check', 'Bet'): Call: 0.03741, Fold: 0.96259
+Iter 3, Update of P2: Avg. strategy of P1 at ('Q', '', 'Check', 'Bet'): Call: 0.60582, Fold: 0.39418
+Iter 3, Update of P2: Avg. strategy of P1 at ('K', '', 'Check', 'Bet'): Call: 0.50000, Fold: 0.50000
+Iter 3, Update of P2: Avg. strategy of P2 at ('', 'J', 'Check'): Bet: 0.25000, Check: 0.75000
+Iter 3, Update of P2: Avg. strategy of P2 at ('', 'J', 'Bet'): Call: 0.08333, Fold: 0.91667
+Iter 3, Update of P2: Avg. strategy of P2 at ('', 'Q', 'Check'): Bet: 0.50000, Check: 0.50000
+Iter 3, Update of P2: Avg. strategy of P2 at ('', 'Q', 'Bet'): Call: 0.83974, Fold: 0.16026
+Iter 3, Update of P2: Avg. strategy of P2 at ('', 'K', 'Check'): Bet: 0.75000, Check: 0.25000
+Iter 3, Update of P2: Avg. strategy of P2 at ('', 'K', 'Bet'): Call: 0.91667, Fold: 0.08333
+Iter 3, Update of P2: Cumulative regrets of P2 at ('', 'J', 'Check'): Bet: 0.09524, Check: 0.04762
+Iter 3, Update of P2: Cumulative regrets of P2 at ('', 'J', 'Bet'): Call: 0.00000, Fold: 0.16667
+Iter 3, Update of P2: Cumulative regrets of P2 at ('', 'Q', 'Check'): Bet: 0.00000, Check: 0.00000
+Iter 3, Update of P2: Cumulative regrets of P2 at ('', 'Q', 'Bet'): Call: 0.14103, Fold: 0.17133
+Iter 3, Update of P2: Cumulative regrets of P2 at ('', 'K', 'Check'): Bet: 0.04762, Check: 0.00000
+Iter 3, Update of P2: Cumulative regrets of P2 at ('', 'K', 'Bet'): Call: 0.50000, Fold: 0.00000
+
+Iter 4, Update of P1: Utility of avg. strategies: -0.06077, 0.06077
+Iter 4, Update of P1: Avg. strategy of P1 at ('J', ''): Bet: 0.33182, Check: 0.66818
+Iter 4, Update of P1: Avg. strategy of P1 at ('Q', ''): Bet: 0.55000, Check: 0.45000
+Iter 4, Update of P1: Avg. strategy of P1 at ('K', ''): Bet: 0.95000, Check: 0.05000
+Iter 4, Update of P1: Avg. strategy of P1 at ('J', '', 'Check', 'Bet'): Call: 0.03741, Fold: 0.96259
+Iter 4, Update of P1: Avg. strategy of P1 at ('Q', '', 'Check', 'Bet'): Call: 0.60582, Fold: 0.39418
+Iter 4, Update of P1: Avg. strategy of P1 at ('K', '', 'Check', 'Bet'): Call: 0.50000, Fold: 0.50000
+Iter 4, Update of P1: Avg. strategy of P2 at ('', 'J', 'Check'): Bet: 0.41667, Check: 0.58333
+Iter 4, Update of P1: Avg. strategy of P2 at ('', 'J', 'Bet'): Call: 0.05000, Fold: 0.95000
+Iter 4, Update of P1: Avg. strategy of P2 at ('', 'Q', 'Check'): Bet: 0.50000, Check: 0.50000
+Iter 4, Update of P1: Avg. strategy of P2 at ('', 'Q', 'Bet'): Call: 0.68444, Fold: 0.31556
+Iter 4, Update of P1: Avg. strategy of P2 at ('', 'K', 'Check'): Bet: 0.85000, Check: 0.15000
+Iter 4, Update of P1: Avg. strategy of P2 at ('', 'K', 'Bet'): Call: 0.95000, Fold: 0.05000
+Iter 4, Update of P1: Cumulative regrets of P1 at ('J', ''): Bet: 0.00000, Check: 0.40326
+Iter 4, Update of P1: Cumulative regrets of P1 at ('Q', ''): Bet: 0.12500, Check: 0.16667
+Iter 4, Update of P1: Cumulative regrets of P1 at ('K', ''): Bet: 0.12500, Check: 0.11920
+Iter 4, Update of P1: Cumulative regrets of P1 at ('J', '', 'Check', 'Bet'): Call: 0.00000, Fold: 0.08333
+Iter 4, Update of P1: Cumulative regrets of P1 at ('Q', '', 'Check', 'Bet'): Call: 0.19444, Fold: 0.11111
+Iter 4, Update of P1: Cumulative regrets of P1 at ('K', '', 'Check', 'Bet'): Call: 0.25000, Fold: 0.00000
+Iter 4, Update of P2: Utility of avg. strategies: -0.03219, 0.03219
+Iter 4, Update of P2: Avg. strategy of P1 at ('J', ''): Bet: 0.22121, Check: 0.77879
+Iter 4, Update of P2: Avg. strategy of P1 at ('Q', ''): Bet: 0.50952, Check: 0.49048
+Iter 4, Update of P2: Avg. strategy of P1 at ('K', ''): Bet: 0.80396, Check: 0.19604
+Iter 4, Update of P2: Avg. strategy of P1 at ('J', '', 'Check', 'Bet'): Call: 0.02140, Fold: 0.97860
+Iter 4, Update of P2: Avg. strategy of P1 at ('Q', '', 'Check', 'Bet'): Call: 0.61768, Fold: 0.38232
+Iter 4, Update of P2: Avg. strategy of P1 at ('K', '', 'Check', 'Bet'): Call: 0.91498, Fold: 0.08502
+Iter 4, Update of P2: Avg. strategy of P2 at ('', 'J', 'Check'): Bet: 0.41667, Check: 0.58333
+Iter 4, Update of P2: Avg. strategy of P2 at ('', 'J', 'Bet'): Call: 0.05000, Fold: 0.95000
+Iter 4, Update of P2: Avg. strategy of P2 at ('', 'Q', 'Check'): Bet: 0.50000, Check: 0.50000
+Iter 4, Update of P2: Avg. strategy of P2 at ('', 'Q', 'Bet'): Call: 0.68444, Fold: 0.31556
+Iter 4, Update of P2: Avg. strategy of P2 at ('', 'K', 'Check'): Bet: 0.85000, Check: 0.15000
+Iter 4, Update of P2: Avg. strategy of P2 at ('', 'K', 'Bet'): Call: 0.95000, Fold: 0.05000
+Iter 4, Update of P2: Cumulative regrets of P2 at ('', 'J', 'Check'): Bet: 0.07101, Check: 0.09608
+Iter 4, Update of P2: Cumulative regrets of P2 at ('', 'J', 'Bet'): Call: 0.00000, Fold: 0.16667
+Iter 4, Update of P2: Cumulative regrets of P2 at ('', 'Q', 'Check'): Bet: 0.00000, Check: 0.04068
+Iter 4, Update of P2: Cumulative regrets of P2 at ('', 'Q', 'Bet'): Call: 0.09423, Fold: 0.20985
+Iter 4, Update of P2: Cumulative regrets of P2 at ('', 'K', 'Check'): Bet: 0.04762, Check: 0.00000
+Iter 4, Update of P2: Cumulative regrets of P2 at ('', 'K', 'Bet'): Call: 0.50000, Fold: 0.00000
+
+Iter 5, Update of P1: Utility of avg. strategies: -0.05107, 0.05107
+Iter 5, Update of P1: Avg. strategy of P1 at ('J', ''): Bet: 0.22121, Check: 0.77879
+Iter 5, Update of P1: Avg. strategy of P1 at ('Q', ''): Bet: 0.50952, Check: 0.49048
+Iter 5, Update of P1: Avg. strategy of P1 at ('K', ''): Bet: 0.80396, Check: 0.19604
+Iter 5, Update of P1: Avg. strategy of P1 at ('J', '', 'Check', 'Bet'): Call: 0.02140, Fold: 0.97860
+Iter 5, Update of P1: Avg. strategy of P1 at ('Q', '', 'Check', 'Bet'): Call: 0.61768, Fold: 0.38232
+Iter 5, Update of P1: Avg. strategy of P1 at ('K', '', 'Check', 'Bet'): Call: 0.91498, Fold: 0.08502
+Iter 5, Update of P1: Avg. strategy of P2 at ('', 'J', 'Check'): Bet: 0.41943, Check: 0.58057
+Iter 5, Update of P1: Avg. strategy of P2 at ('', 'J', 'Bet'): Call: 0.03333, Fold: 0.96667
+Iter 5, Update of P1: Avg. strategy of P2 at ('', 'Q', 'Check'): Bet: 0.33333, Check: 0.66667
+Iter 5, Update of P1: Avg. strategy of P2 at ('', 'Q', 'Bet'): Call: 0.55959, Fold: 0.44041
+Iter 5, Update of P1: Avg. strategy of P2 at ('', 'K', 'Check'): Bet: 0.90000, Check: 0.10000
+Iter 5, Update of P1: Avg. strategy of P2 at ('', 'K', 'Bet'): Call: 0.96667, Fold: 0.03333
+Iter 5, Update of P1: Cumulative regrets of P1 at ('J', ''): Bet: 0.01172, Check: 0.40326
+Iter 5, Update of P1: Cumulative regrets of P1 at ('Q', ''): Bet: 0.09405, Check: 0.18988
+Iter 5, Update of P1: Cumulative regrets of P1 at ('K', ''): Bet: 0.11564, Check: 0.12901
+Iter 5, Update of P1: Cumulative regrets of P1 at ('J', '', 'Check', 'Bet'): Call: 0.00000, Fold: 0.08333
+Iter 5, Update of P1: Cumulative regrets of P1 at ('Q', '', 'Check', 'Bet'): Call: 0.21110, Fold: 0.08196
+Iter 5, Update of P1: Cumulative regrets of P1 at ('K', '', 'Check', 'Bet'): Call: 0.25000, Fold: 0.00000
+Iter 5, Update of P2: Utility of avg. strategies: -0.03718, 0.03718
+Iter 5, Update of P2: Avg. strategy of P1 at ('J', ''): Bet: 0.16608, Check: 0.83392
+Iter 5, Update of P2: Avg. strategy of P1 at ('Q', ''): Bet: 0.45858, Check: 0.54142
+Iter 5, Update of P2: Avg. strategy of P1 at ('K', ''): Bet: 0.70931, Check: 0.29069
+Iter 5, Update of P2: Avg. strategy of P1 at ('J', '', 'Check', 'Bet'): Call: 0.01428, Fold: 0.98572
+Iter 5, Update of P2: Avg. strategy of P1 at ('Q', '', 'Check', 'Bet'): Call: 0.65391, Fold: 0.34609
+Iter 5, Update of P2: Avg. strategy of P1 at ('K', '', 'Check', 'Bet'): Call: 0.95905, Fold: 0.04095
+Iter 5, Update of P2: Avg. strategy of P2 at ('', 'J', 'Check'): Bet: 0.41943, Check: 0.58057
+Iter 5, Update of P2: Avg. strategy of P2 at ('', 'J', 'Bet'): Call: 0.03333, Fold: 0.96667
+Iter 5, Update of P2: Avg. strategy of P2 at ('', 'Q', 'Check'): Bet: 0.33333, Check: 0.66667
+Iter 5, Update of P2: Avg. strategy of P2 at ('', 'Q', 'Bet'): Call: 0.55959, Fold: 0.44041
+Iter 5, Update of P2: Avg. strategy of P2 at ('', 'K', 'Check'): Bet: 0.90000, Check: 0.10000
+Iter 5, Update of P2: Avg. strategy of P2 at ('', 'K', 'Bet'): Call: 0.96667, Fold: 0.03333
+Iter 5, Update of P2: Cumulative regrets of P2 at ('', 'J', 'Check'): Bet: 0.01015, Check: 0.14106
+Iter 5, Update of P2: Cumulative regrets of P2 at ('', 'J', 'Bet'): Call: 0.00000, Fold: 0.16667
+Iter 5, Update of P2: Cumulative regrets of P2 at ('', 'Q', 'Check'): Bet: 0.00000, Check: 0.04068
+Iter 5, Update of P2: Cumulative regrets of P2 at ('', 'Q', 'Bet'): Call: 0.04961, Fold: 0.22988
+Iter 5, Update of P2: Cumulative regrets of P2 at ('', 'K', 'Check'): Bet: 0.04762, Check: 0.00000
+Iter 5, Update of P2: Cumulative regrets of P2 at ('', 'K', 'Bet'): Call: 0.50000, Fold: 0.00000
+
+Iter 6, Update of P1: Utility of avg. strategies: -0.05538, 0.05538
+Iter 6, Update of P1: Avg. strategy of P1 at ('J', ''): Bet: 0.16608, Check: 0.83392
+Iter 6, Update of P1: Avg. strategy of P1 at ('Q', ''): Bet: 0.45858, Check: 0.54142
+Iter 6, Update of P1: Avg. strategy of P1 at ('K', ''): Bet: 0.70931, Check: 0.29069
+Iter 6, Update of P1: Avg. strategy of P1 at ('J', '', 'Check', 'Bet'): Call: 0.01428, Fold: 0.98572
+Iter 6, Update of P1: Avg. strategy of P1 at ('Q', '', 'Check', 'Bet'): Call: 0.65391, Fold: 0.34609
+Iter 6, Update of P1: Avg. strategy of P1 at ('K', '', 'Check', 'Bet'): Call: 0.95905, Fold: 0.04095
+Iter 6, Update of P1: Avg. strategy of P2 at ('', 'J', 'Check'): Bet: 0.31877, Check: 0.68123
+Iter 6, Update of P1: Avg. strategy of P2 at ('', 'J', 'Bet'): Call: 0.02381, Fold: 0.97619
+Iter 6, Update of P1: Avg. strategy of P2 at ('', 'Q', 'Check'): Bet: 0.23810, Check: 0.76190
+Iter 6, Update of P1: Avg. strategy of P2 at ('', 'Q', 'Bet'): Call: 0.45042, Fold: 0.54958
+Iter 6, Update of P1: Avg. strategy of P2 at ('', 'K', 'Check'): Bet: 0.92857, Check: 0.07143
+Iter 6, Update of P1: Avg. strategy of P2 at ('', 'K', 'Bet'): Call: 0.97619, Fold: 0.02381
+Iter 6, Update of P1: Cumulative regrets of P1 at ('J', ''): Bet: 0.08744, Check: 0.40106
+Iter 6, Update of P1: Cumulative regrets of P1 at ('Q', ''): Bet: 0.06167, Check: 0.20592
+Iter 6, Update of P1: Cumulative regrets of P1 at ('K', ''): Bet: 0.12534, Check: 0.12032
+Iter 6, Update of P1: Cumulative regrets of P1 at ('J', '', 'Check', 'Bet'): Call: 0.00000, Fold: 0.08333
+Iter 6, Update of P1: Cumulative regrets of P1 at ('Q', '', 'Check', 'Bet'): Call: 0.17388, Fold: 0.17785
+Iter 6, Update of P1: Cumulative regrets of P1 at ('K', '', 'Check', 'Bet'): Call: 0.25000, Fold: 0.00000
+Iter 6, Update of P2: Utility of avg. strategies: -0.05086, 0.05086
+Iter 6, Update of P2: Avg. strategy of P1 at ('J', ''): Bet: 0.16931, Check: 0.83069
+Iter 6, Update of P2: Avg. strategy of P1 at ('Q', ''): Bet: 0.40156, Check: 0.59844
+Iter 6, Update of P2: Avg. strategy of P1 at ('K', ''): Bet: 0.65954, Check: 0.34046
+Iter 6, Update of P2: Avg. strategy of P1 at ('J', '', 'Check', 'Bet'): Call: 0.01075, Fold: 0.98925
+Iter 6, Update of P2: Avg. strategy of P1 at ('Q', '', 'Check', 'Bet'): Call: 0.60262, Fold: 0.39738
+Iter 6, Update of P2: Avg. strategy of P1 at ('K', '', 'Check', 'Bet'): Call: 0.97378, Fold: 0.02622
+Iter 6, Update of P2: Avg. strategy of P2 at ('', 'J', 'Check'): Bet: 0.31877, Check: 0.68123
+Iter 6, Update of P2: Avg. strategy of P2 at ('', 'J', 'Bet'): Call: 0.02381, Fold: 0.97619
+Iter 6, Update of P2: Avg. strategy of P2 at ('', 'Q', 'Check'): Bet: 0.23810, Check: 0.76190
+Iter 6, Update of P2: Avg. strategy of P2 at ('', 'Q', 'Bet'): Call: 0.45042, Fold: 0.54958
+Iter 6, Update of P2: Avg. strategy of P2 at ('', 'K', 'Check'): Bet: 0.92857, Check: 0.07143
+Iter 6, Update of P2: Avg. strategy of P2 at ('', 'K', 'Bet'): Call: 0.97619, Fold: 0.02381
+Iter 6, Update of P2: Cumulative regrets of P2 at ('', 'J', 'Check'): Bet: 0.00000, Check: 0.14209
+Iter 6, Update of P2: Cumulative regrets of P2 at ('', 'J', 'Bet'): Call: 0.00000, Fold: 0.16667
+Iter 6, Update of P2: Cumulative regrets of P2 at ('', 'Q', 'Check'): Bet: 0.00000, Check: 0.04068
+Iter 6, Update of P2: Cumulative regrets of P2 at ('', 'Q', 'Bet'): Call: 0.05328, Fold: 0.22909
+Iter 6, Update of P2: Cumulative regrets of P2 at ('', 'K', 'Check'): Bet: 0.04762, Check: 0.00000
+Iter 6, Update of P2: Cumulative regrets of P2 at ('', 'K', 'Bet'): Call: 0.50000, Fold: 0.00000
+
+Iter 7, Update of P1: Utility of avg. strategies: -0.06203, 0.06203
+Iter 7, Update of P1: Avg. strategy of P1 at ('J', ''): Bet: 0.16931, Check: 0.83069
+Iter 7, Update of P1: Avg. strategy of P1 at ('Q', ''): Bet: 0.40156, Check: 0.59844
+Iter 7, Update of P1: Avg. strategy of P1 at ('K', ''): Bet: 0.65954, Check: 0.34046
+Iter 7, Update of P1: Avg. strategy of P1 at ('J', '', 'Check', 'Bet'): Call: 0.01075, Fold: 0.98925
+Iter 7, Update of P1: Avg. strategy of P1 at ('Q', '', 'Check', 'Bet'): Call: 0.60262, Fold: 0.39738
+Iter 7, Update of P1: Avg. strategy of P1 at ('K', '', 'Check', 'Bet'): Call: 0.97378, Fold: 0.02622
+Iter 7, Update of P1: Avg. strategy of P2 at ('', 'J', 'Check'): Bet: 0.23907, Check: 0.76093
+Iter 7, Update of P1: Avg. strategy of P2 at ('', 'J', 'Bet'): Call: 0.01786, Fold: 0.98214
+Iter 7, Update of P1: Avg. strategy of P2 at ('', 'Q', 'Check'): Bet: 0.17857, Check: 0.82143
+Iter 7, Update of P1: Avg. strategy of P2 at ('', 'Q', 'Bet'): Call: 0.38499, Fold: 0.61501
+Iter 7, Update of P1: Avg. strategy of P2 at ('', 'K', 'Check'): Bet: 0.94643, Check: 0.05357
+Iter 7, Update of P1: Avg. strategy of P2 at ('', 'K', 'Bet'): Call: 0.98214, Fold: 0.01786
+Iter 7, Update of P1: Cumulative regrets of P1 at ('J', ''): Bet: 0.14682, Check: 0.38812
+Iter 7, Update of P1: Cumulative regrets of P1 at ('Q', ''): Bet: 0.00000, Check: 0.22534
+Iter 7, Update of P1: Cumulative regrets of P1 at ('K', ''): Bet: 0.14074, Check: 0.10427
+Iter 7, Update of P1: Cumulative regrets of P1 at ('J', '', 'Check', 'Bet'): Call: 0.00000, Fold: 0.08333
+Iter 7, Update of P1: Cumulative regrets of P1 at ('Q', '', 'Check', 'Bet'): Call: 0.08960, Fold: 0.26024
+Iter 7, Update of P1: Cumulative regrets of P1 at ('K', '', 'Check', 'Bet'): Call: 0.25000, Fold: 0.00000
+Iter 7, Update of P2: Utility of avg. strategies: -0.05401, 0.05401
+Iter 7, Update of P2: Avg. strategy of P1 at ('J', ''): Bet: 0.19267, Check: 0.80733
+Iter 7, Update of P2: Avg. strategy of P1 at ('Q', ''): Bet: 0.31232, Check: 0.68768
+Iter 7, Update of P2: Avg. strategy of P1 at ('K', ''): Bet: 0.64062, Check: 0.35938
+Iter 7, Update of P2: Avg. strategy of P1 at ('J', '', 'Check', 'Bet'): Call: 0.00860, Fold: 0.99140
+Iter 7, Update of P2: Avg. strategy of P1 at ('Q', '', 'Check', 'Bet'): Call: 0.49065, Fold: 0.50935
+Iter 7, Update of P2: Avg. strategy of P1 at ('K', '', 'Check', 'Bet'): Call: 0.98068, Fold: 0.01932
+Iter 7, Update of P2: Avg. strategy of P2 at ('', 'J', 'Check'): Bet: 0.23907, Check: 0.76093
+Iter 7, Update of P2: Avg. strategy of P2 at ('', 'J', 'Bet'): Call: 0.01786, Fold: 0.98214
+Iter 7, Update of P2: Avg. strategy of P2 at ('', 'Q', 'Check'): Bet: 0.17857, Check: 0.82143
+Iter 7, Update of P2: Avg. strategy of P2 at ('', 'Q', 'Bet'): Call: 0.38499, Fold: 0.61501
+Iter 7, Update of P2: Avg. strategy of P2 at ('', 'K', 'Check'): Bet: 0.94643, Check: 0.05357
+Iter 7, Update of P2: Avg. strategy of P2 at ('', 'K', 'Bet'): Call: 0.98214, Fold: 0.01786
+Iter 7, Update of P2: Cumulative regrets of P2 at ('', 'J', 'Check'): Bet: 0.13434, Check: 0.14209
+Iter 7, Update of P2: Cumulative regrets of P2 at ('', 'J', 'Bet'): Call: 0.00000, Fold: 0.16667
+Iter 7, Update of P2: Cumulative regrets of P2 at ('', 'Q', 'Check'): Bet: 0.00000, Check: 0.04068
+Iter 7, Update of P2: Cumulative regrets of P2 at ('', 'Q', 'Bet'): Call: 0.08694, Fold: 0.22126
+Iter 7, Update of P2: Cumulative regrets of P2 at ('', 'K', 'Check'): Bet: 0.04762, Check: 0.00000
+Iter 7, Update of P2: Cumulative regrets of P2 at ('', 'K', 'Bet'): Call: 0.50000, Fold: 0.00000
+
+Iter 8, Update of P1: Utility of avg. strategies: -0.05898, 0.05898
+Iter 8, Update of P1: Avg. strategy of P1 at ('J', ''): Bet: 0.19267, Check: 0.80733
+Iter 8, Update of P1: Avg. strategy of P1 at ('Q', ''): Bet: 0.31232, Check: 0.68768
+Iter 8, Update of P1: Avg. strategy of P1 at ('K', ''): Bet: 0.64062, Check: 0.35938
+Iter 8, Update of P1: Avg. strategy of P1 at ('J', '', 'Check', 'Bet'): Call: 0.00860, Fold: 0.99140
+Iter 8, Update of P1: Avg. strategy of P1 at ('Q', '', 'Check', 'Bet'): Call: 0.49065, Fold: 0.50935
+Iter 8, Update of P1: Avg. strategy of P1 at ('K', '', 'Check', 'Bet'): Call: 0.98068, Fold: 0.01932
+Iter 8, Update of P1: Avg. strategy of P2 at ('', 'J', 'Check'): Bet: 0.29394, Check: 0.70606
+Iter 8, Update of P1: Avg. strategy of P2 at ('', 'J', 'Bet'): Call: 0.01389, Fold: 0.98611
+Iter 8, Update of P1: Avg. strategy of P2 at ('', 'Q', 'Check'): Bet: 0.13889, Check: 0.86111
+Iter 8, Update of P1: Avg. strategy of P2 at ('', 'Q', 'Bet'): Call: 0.36212, Fold: 0.63788
+Iter 8, Update of P1: Avg. strategy of P2 at ('', 'K', 'Check'): Bet: 0.95833, Check: 0.04167
+Iter 8, Update of P1: Avg. strategy of P2 at ('', 'K', 'Bet'): Call: 0.98611, Fold: 0.01389
+Iter 8, Update of P1: Cumulative regrets of P1 at ('J', ''): Bet: 0.16541, Check: 0.38108
+Iter 8, Update of P1: Cumulative regrets of P1 at ('Q', ''): Bet: 0.00000, Check: 0.22534
+Iter 8, Update of P1: Cumulative regrets of P1 at ('K', ''): Bet: 0.12628, Check: 0.12379
+Iter 8, Update of P1: Cumulative regrets of P1 at ('J', '', 'Check', 'Bet'): Call: 0.00000, Fold: 0.08333
+Iter 8, Update of P1: Cumulative regrets of P1 at ('Q', '', 'Check', 'Bet'): Call: 0.14638, Fold: 0.24069
+Iter 8, Update of P1: Cumulative regrets of P1 at ('K', '', 'Check', 'Bet'): Call: 0.25000, Fold: 0.00000
+Iter 8, Update of P2: Utility of avg. strategies: -0.05472, 0.05472
+Iter 8, Update of P2: Avg. strategy of P1 at ('J', ''): Bet: 0.21467, Check: 0.78533
+Iter 8, Update of P2: Avg. strategy of P1 at ('Q', ''): Bet: 0.24986, Check: 0.75014
+Iter 8, Update of P2: Avg. strategy of P1 at ('K', ''): Bet: 0.61349, Check: 0.38651
+Iter 8, Update of P2: Avg. strategy of P1 at ('J', '', 'Check', 'Bet'): Call: 0.00707, Fold: 0.99293
+Iter 8, Update of P2: Avg. strategy of P1 at ('Q', '', 'Check', 'Bet'): Call: 0.46066, Fold: 0.53934
+Iter 8, Update of P2: Avg. strategy of P1 at ('K', '', 'Check', 'Bet'): Call: 0.98563, Fold: 0.01437
+Iter 8, Update of P2: Avg. strategy of P2 at ('', 'J', 'Check'): Bet: 0.29394, Check: 0.70606
+Iter 8, Update of P2: Avg. strategy of P2 at ('', 'J', 'Bet'): Call: 0.01389, Fold: 0.98611
+Iter 8, Update of P2: Avg. strategy of P2 at ('', 'Q', 'Check'): Bet: 0.13889, Check: 0.86111
+Iter 8, Update of P2: Avg. strategy of P2 at ('', 'Q', 'Bet'): Call: 0.36212, Fold: 0.63788
+Iter 8, Update of P2: Avg. strategy of P2 at ('', 'K', 'Check'): Bet: 0.95833, Check: 0.04167
+Iter 8, Update of P2: Avg. strategy of P2 at ('', 'K', 'Bet'): Call: 0.98611, Fold: 0.01389
+Iter 8, Update of P2: Cumulative regrets of P2 at ('', 'J', 'Check'): Bet: 0.16608, Check: 0.11208
+Iter 8, Update of P2: Cumulative regrets of P2 at ('', 'J', 'Bet'): Call: 0.00000, Fold: 0.16667
+Iter 8, Update of P2: Cumulative regrets of P2 at ('', 'Q', 'Check'): Bet: 0.00000, Check: 0.04068
+Iter 8, Update of P2: Cumulative regrets of P2 at ('', 'Q', 'Bet'): Call: 0.13516, Fold: 0.20231
+Iter 8, Update of P2: Cumulative regrets of P2 at ('', 'K', 'Check'): Bet: 0.04762, Check: 0.00000
+Iter 8, Update of P2: Cumulative regrets of P2 at ('', 'K', 'Bet'): Call: 0.50000, Fold: 0.00000
+
+Iter 9, Update of P1: Utility of avg. strategies: -0.05893, 0.05893
+Iter 9, Update of P1: Avg. strategy of P1 at ('J', ''): Bet: 0.21467, Check: 0.78533
+Iter 9, Update of P1: Avg. strategy of P1 at ('Q', ''): Bet: 0.24986, Check: 0.75014
+Iter 9, Update of P1: Avg. strategy of P1 at ('K', ''): Bet: 0.61349, Check: 0.38651
+Iter 9, Update of P1: Avg. strategy of P1 at ('J', '', 'Check', 'Bet'): Call: 0.00707, Fold: 0.99293
+Iter 9, Update of P1: Avg. strategy of P1 at ('Q', '', 'Check', 'Bet'): Call: 0.46066, Fold: 0.53934
+Iter 9, Update of P1: Avg. strategy of P1 at ('K', '', 'Check', 'Bet'): Call: 0.98563, Fold: 0.01437
+Iter 9, Update of P1: Avg. strategy of P2 at ('', 'J', 'Check'): Bet: 0.35457, Check: 0.64543
+Iter 9, Update of P1: Avg. strategy of P2 at ('', 'J', 'Bet'): Call: 0.01111, Fold: 0.98889
+Iter 9, Update of P1: Avg. strategy of P2 at ('', 'Q', 'Check'): Bet: 0.11111, Check: 0.88889
+Iter 9, Update of P1: Avg. strategy of P2 at ('', 'Q', 'Bet'): Call: 0.36980, Fold: 0.63020
+Iter 9, Update of P1: Avg. strategy of P2 at ('', 'K', 'Check'): Bet: 0.96667, Check: 0.03333
+Iter 9, Update of P1: Avg. strategy of P2 at ('', 'K', 'Bet'): Call: 0.98889, Fold: 0.01111
+Iter 9, Update of P1: Cumulative regrets of P1 at ('J', ''): Bet: 0.14199, Check: 0.39125
+Iter 9, Update of P1: Cumulative regrets of P1 at ('Q', ''): Bet: 0.00000, Check: 0.22534
+Iter 9, Update of P1: Cumulative regrets of P1 at ('K', ''): Bet: 0.11007, Check: 0.14033
+Iter 9, Update of P1: Cumulative regrets of P1 at ('J', '', 'Check', 'Bet'): Call: 0.00000, Fold: 0.08333
+Iter 9, Update of P1: Cumulative regrets of P1 at ('Q', '', 'Check', 'Bet'): Call: 0.22838, Fold: 0.19082
+Iter 9, Update of P1: Cumulative regrets of P1 at ('K', '', 'Check', 'Bet'): Call: 0.25000, Fold: 0.00000
+Iter 9, Update of P2: Utility of avg. strategies: -0.05573, 0.05573
+Iter 9, Update of P2: Avg. strategy of P1 at ('J', ''): Bet: 0.22406, Check: 0.77594
+Iter 9, Update of P2: Avg. strategy of P1 at ('Q', ''): Bet: 0.20443, Check: 0.79557
+Iter 9, Update of P2: Avg. strategy of P1 at ('K', ''): Bet: 0.58187, Check: 0.41813
+Iter 9, Update of P2: Avg. strategy of P1 at ('J', '', 'Check', 'Bet'): Call: 0.00586, Fold: 0.99414
+Iter 9, Update of P2: Avg. strategy of P1 at ('Q', '', 'Check', 'Bet'): Call: 0.47989, Fold: 0.52011
+Iter 9, Update of P2: Avg. strategy of P1 at ('K', '', 'Check', 'Bet'): Call: 0.98913, Fold: 0.01087
+Iter 9, Update of P2: Avg. strategy of P2 at ('', 'J', 'Check'): Bet: 0.35457, Check: 0.64543
+Iter 9, Update of P2: Avg. strategy of P2 at ('', 'J', 'Bet'): Call: 0.01111, Fold: 0.98889
+Iter 9, Update of P2: Avg. strategy of P2 at ('', 'Q', 'Check'): Bet: 0.11111, Check: 0.88889
+Iter 9, Update of P2: Avg. strategy of P2 at ('', 'Q', 'Bet'): Call: 0.36980, Fold: 0.63020
+Iter 9, Update of P2: Avg. strategy of P2 at ('', 'K', 'Check'): Bet: 0.96667, Check: 0.03333
+Iter 9, Update of P2: Avg. strategy of P2 at ('', 'K', 'Bet'): Call: 0.98889, Fold: 0.01111
+Iter 9, Update of P2: Cumulative regrets of P2 at ('', 'J', 'Check'): Bet: 0.15299, Check: 0.13147
+Iter 9, Update of P2: Cumulative regrets of P2 at ('', 'J', 'Bet'): Call: 0.00000, Fold: 0.16667
+Iter 9, Update of P2: Cumulative regrets of P2 at ('', 'Q', 'Check'): Bet: 0.00000, Check: 0.04068
+Iter 9, Update of P2: Cumulative regrets of P2 at ('', 'Q', 'Bet'): Call: 0.17106, Fold: 0.17833
+Iter 9, Update of P2: Cumulative regrets of P2 at ('', 'K', 'Check'): Bet: 0.04762, Check: 0.00000
+Iter 9, Update of P2: Cumulative regrets of P2 at ('', 'K', 'Bet'): Call: 0.50000, Fold: 0.00000
+
+Iter 10, Update of P1: Utility of avg. strategies: -0.05872, 0.05872
+Iter 10, Update of P1: Avg. strategy of P1 at ('J', ''): Bet: 0.22406, Check: 0.77594
+Iter 10, Update of P1: Avg. strategy of P1 at ('Q', ''): Bet: 0.20443, Check: 0.79557
+Iter 10, Update of P1: Avg. strategy of P1 at ('K', ''): Bet: 0.58187, Check: 0.41813
+Iter 10, Update of P1: Avg. strategy of P1 at ('J', '', 'Check', 'Bet'): Call: 0.00586, Fold: 0.99414
+Iter 10, Update of P1: Avg. strategy of P1 at ('Q', '', 'Check', 'Bet'): Call: 0.47989, Fold: 0.52011
+Iter 10, Update of P1: Avg. strategy of P1 at ('K', '', 'Check', 'Bet'): Call: 0.98913, Fold: 0.01087
+Iter 10, Update of P1: Avg. strategy of P2 at ('', 'J', 'Check'): Bet: 0.38789, Check: 0.61211
+Iter 10, Update of P1: Avg. strategy of P2 at ('', 'J', 'Bet'): Call: 0.00909, Fold: 0.99091
+Iter 10, Update of P1: Avg. strategy of P2 at ('', 'Q', 'Check'): Bet: 0.09091, Check: 0.90909
+Iter 10, Update of P1: Avg. strategy of P2 at ('', 'Q', 'Bet'): Call: 0.39158, Fold: 0.60842
+Iter 10, Update of P1: Avg. strategy of P2 at ('', 'K', 'Check'): Bet: 0.97273, Check: 0.02727
+Iter 10, Update of P1: Avg. strategy of P2 at ('', 'K', 'Bet'): Call: 0.99091, Fold: 0.00909
+Iter 10, Update of P1: Cumulative regrets of P1 at ('J', ''): Bet: 0.08466, Check: 0.41205
+Iter 10, Update of P1: Cumulative regrets of P1 at ('Q', ''): Bet: 0.00000, Check: 0.22534
+Iter 10, Update of P1: Cumulative regrets of P1 at ('K', ''): Bet: 0.10556, Check: 0.14387
+Iter 10, Update of P1: Cumulative regrets of P1 at ('J', '', 'Check', 'Bet'): Call: 0.00000, Fold: 0.08333
+Iter 10, Update of P1: Cumulative regrets of P1 at ('Q', '', 'Check', 'Bet'): Call: 0.27492, Fold: 0.13512
+Iter 10, Update of P1: Cumulative regrets of P1 at ('K', '', 'Check', 'Bet'): Call: 0.25000, Fold: 0.00000
+Iter 10, Update of P2: Utility of avg. strategies: -0.05525, 0.05525
+Iter 10, Update of P2: Avg. strategy of P1 at ('J', ''): Bet: 0.21512, Check: 0.78488
+Iter 10, Update of P2: Avg. strategy of P1 at ('Q', ''): Bet: 0.17036, Check: 0.82964
+Iter 10, Update of P2: Avg. strategy of P1 at ('K', ''): Bet: 0.55543, Check: 0.44457
+Iter 10, Update of P2: Avg. strategy of P1 at ('J', '', 'Check', 'Bet'): Call: 0.00483, Fold: 0.99517
+Iter 10, Update of P2: Avg. strategy of P1 at ('Q', '', 'Check', 'Bet'): Call: 0.51818, Fold: 0.48182
+Iter 10, Update of P2: Avg. strategy of P1 at ('K', '', 'Check', 'Bet'): Call: 0.99148, Fold: 0.00852
+Iter 10, Update of P2: Avg. strategy of P2 at ('', 'J', 'Check'): Bet: 0.38789, Check: 0.61211
+Iter 10, Update of P2: Avg. strategy of P2 at ('', 'J', 'Bet'): Call: 0.00909, Fold: 0.99091
+Iter 10, Update of P2: Avg. strategy of P2 at ('', 'Q', 'Check'): Bet: 0.09091, Check: 0.90909
+Iter 10, Update of P2: Avg. strategy of P2 at ('', 'Q', 'Bet'): Call: 0.39158, Fold: 0.60842
+Iter 10, Update of P2: Avg. strategy of P2 at ('', 'K', 'Check'): Bet: 0.97273, Check: 0.02727
+Iter 10, Update of P2: Avg. strategy of P2 at ('', 'K', 'Bet'): Call: 0.99091, Fold: 0.00909
+Iter 10, Update of P2: Cumulative regrets of P2 at ('', 'J', 'Check'): Bet: 0.10768, Check: 0.18420
+Iter 10, Update of P2: Cumulative regrets of P2 at ('', 'J', 'Bet'): Call: 0.00000, Fold: 0.16667
+Iter 10, Update of P2: Cumulative regrets of P2 at ('', 'Q', 'Check'): Bet: 0.00000, Check: 0.04068
+Iter 10, Update of P2: Cumulative regrets of P2 at ('', 'Q', 'Bet'): Call: 0.17856, Fold: 0.17114
+Iter 10, Update of P2: Cumulative regrets of P2 at ('', 'K', 'Check'): Bet: 0.04762, Check: 0.00000
+Iter 10, Update of P2: Cumulative regrets of P2 at ('', 'K', 'Bet'): Call: 0.50000, Fold: 0.00000
