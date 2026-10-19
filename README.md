@@ -12,7 +12,7 @@ Homework assignments for the course are available in the `tasks` directory in th
 
 ## Automated Tests
 
-Automated tests for the homework assignments are located in the `tests` directory. The tests use the `pytest` package and compare outputs of your solutions against expected outputs produced by our reference implementations. You can execute all tests using the `pytest` command or run tests for individual weeks using `pytest tests/<file_name>.py`.
+Automated tests for the homework assignments are located in the `tests` directory. The tests use the `pytest` package and compare outputs of your solutions against expected outputs produced by our reference implementations. You can execute all tests using the `pytest` command or run tests for individual weeks using `pytest tests/<file_name>.py`. The tests also check data types, so make sure that your functions return `np.float64` values and arrays, with the exception of arrays of action indices, which should be `np.int64`.
 
 The tests expect your solutions in a `solutions` directory in the root of the repository, with files named the same as in the `templates` directory (e.g., `solutions/week01.py`), and must be run from the repository root. We ask you not to edit the templates directly, so that future changes to the templates on our side don't lead to conflicts when you pull them. The `solutions` directory is already listed in `.gitignore`.
 

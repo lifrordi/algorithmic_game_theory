@@ -23,8 +23,12 @@ def verify_support(
     """Construct a system of linear equations to check whether there
     exists a candidate for a Nash equilibrium for the given supports.
 
-    This function is not supposed to check if actions outside of the
-    given support lead to a higher payoff than the found strategy.
+    The returned strategy of the opponent (the column player of `matrix`) makes
+    all actions in `row_support` equally good. This function is not supposed to
+    check if actions outside of the given support lead to a higher payoff.
+
+    To compute the strategy of the row player, call this function with the transposed
+    payoff matrix of the column player and with the two supports swapped.
 
     The reference implementation uses `scipy.optimize.linprog`
     with the default solver -- 'highs'. You can find more information at
@@ -33,16 +37,16 @@ def verify_support(
     Parameters
     ----------
     matrix : np.ndarray
-        A payoff matrix of one of the players
+        A payoff matrix of the player whose actions correspond to rows
     row_support : np.ndarray
-        The row player's support
+        The support of the player whose actions correspond to rows of `matrix`
     col_support : np.ndarray
-        The column player's support
+        The support of the opponent whose actions correspond to columns of `matrix`
 
     Returns
     -------
     np.ndarray | None
-        The opponent's strategy, if it exists, otherwise `None`
+        Probabilities of the opponent's actions in `col_support`, if they exist, otherwise `None`
     """
 
     raise NotImplementedError

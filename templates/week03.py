@@ -96,6 +96,9 @@ def fictitious_play(
     average strategy vectors using a moving average. Therefore, it is recommended
     to use the same averaging method to avoid numerical discrepancies during testing.
 
+    The reference solution initializes both players' beliefs to uniform strategies
+    and uses the best responses to these beliefs as the first strategy profile.
+
     Parameters
     ----------
     row_matrix : np.ndarray
@@ -111,7 +114,7 @@ def fictitious_play(
     Returns
     -------
     list[tuple[np.ndarray, np.ndarray]]
-        The sequence of average strategy profiles produced by the algorithm
+        The sequence of `num_iters` average strategy profiles produced by the algorithm
     """
 
     raise NotImplementedError

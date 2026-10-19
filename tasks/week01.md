@@ -1,7 +1,7 @@
 # Week 1 Homework
 
 ## 1) Environment and GitHub Setup
-- Make sure you have Python and Jupyter notebooks installed
+- Make sure you have Python installed
 - Set up your local environment using the provided `requirements.txt` file
 - Create a private GitHub repository where you will be submitting your homework solutions
 
@@ -15,7 +15,7 @@
 - Given a payoff matrix and a player's strategy, compute the expected utility against an opponent's best response strategy
 
 ## 5) Finding Dominated Strategies
-- Implement a function that finds a set of dominated strategies for a given normal-form game
+- Implement a function that finds actions strictly dominated by another pure action for one of the players
 
 ## 6) Iterated Removal of Dominated Strategies
 - Implement Iterated Removal of Dominated Strategies

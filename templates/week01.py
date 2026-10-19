@@ -143,12 +143,15 @@ def evaluate_col_against_best_response(
 
 
 def find_strictly_dominated_actions(matrix: np.ndarray) -> np.ndarray:
-    """Find strictly dominated actions for the given normal-form game.
+    """Find actions of a player that are strictly dominated by another pure action.
+
+    Rows of `matrix` correspond to the player's actions. To find dominated actions
+    of the column player, pass the transpose of their payoff matrix.
 
     Parameters
     ----------
     matrix : np.ndarray
-        A payoff matrix of one of the players
+        The player's payoff matrix with rows corresponding to their actions
 
     Returns
     -------

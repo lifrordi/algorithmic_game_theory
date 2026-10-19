@@ -6,6 +6,8 @@ import numpy as np
 def regret_matching(regrets: np.ndarray) -> np.ndarray:
     """Generate a strategy based on the given cumulative regrets.
 
+    If no action has a positive cumulative regret, the uniform strategy is returned.
+
     Parameters
     ----------
     regrets : np.ndarray
@@ -24,6 +26,9 @@ def regret_minimization(
     row_matrix: np.ndarray, col_matrix: np.ndarray, num_iters: int
 ) -> list[tuple[np.ndarray, np.ndarray]]:
     """Run Regret Minimization for a given number of iterations.
+
+    The reference solution starts with uniform strategies, which form the first strategy
+    profile, and updates the cumulative regrets of both players simultaneously.
 
     Parameters
     ----------
