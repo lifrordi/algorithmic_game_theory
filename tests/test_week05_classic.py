@@ -52,7 +52,9 @@ def test_double_oracle(
     strategies, supports = week05.double_oracle(row_matrix, 1e-5, rng)
     exploitability = week03.compute_exploitability(row_matrix, col_matrix, *strategies[-1])
 
-    for (row_strategy, col_strategy), (row_support, col_support) in zip(strategies, supports):
+    for (row_strategy, col_strategy), (row_support, col_support) in zip(
+        strategies, supports, strict=True
+    ):
         assert row_strategy.dtype == np.float64, 'Incorrect dtype!'
         assert col_strategy.dtype == np.float64, 'Incorrect dtype!'
         assert row_support.dtype == np.int64, 'Incorrect dtype!'

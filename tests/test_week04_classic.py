@@ -10,7 +10,11 @@ from pytest import FixtureRequest
 from pytest_regressions.ndarrays_regression import NDArraysRegressionFixture
 
 import week04
-from utils import cache_data_stream_per_function, parameterize_classical_tests
+from utils import (
+    cache_data_stream_per_function,
+    check_correlated_equilibrium,
+    parameterize_classical_tests,
+)
 
 NUM_GAMES = 9
 NUM_ZERO_SUM_GAMES = 2
@@ -61,16 +65,10 @@ def test_find_nash_equilibrium(
 @pytest.mark.parametrize('general_sum_data_stream', range(NUM_GAMES), indirect=True)
 def test_find_correlated_equilibrium(
     general_sum_data_stream: Generator,
-    ndarrays_regression: NDArraysRegressionFixture,
-    request: FixtureRequest,
 ) -> None:
     row_matrix, col_matrix, *_ = next(general_sum_data_stream)
 
     corr_equi = week04.find_correlated_equilibrium(row_matrix, col_matrix)
 
-    assert corr_equi.dtype == np.float64, 'Incorrect dtype!'
-
-    ndarrays_regression.check(
-        {'correlated_equilibrium': corr_equi},
-        f'{request.node.originalname}{request.node.callspec.indices["general_sum_data_stream"]}',
-    )
+    # Correlated equilibria are not unique in general, so we check their properties instead
+    check_correlated_equilibrium(row_matrix, col_matrix, corr_equi)

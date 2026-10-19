@@ -129,8 +129,8 @@ def parameterize_classical_tests(zero_sum_only: bool, rng: np.random.Generator) 
             np.array([[4, 3], [0, 3]], np.float64),
         ),
         'harmony': (
-            np.array([[3, 1], [2, 4]], np.float64),
-            np.array([[3, 1], [2, 4]], np.float64),
+            np.array([[4, 3], [2, 1]], np.float64),
+            np.array([[4, 2], [3, 1]], np.float64),
         ),
         'coordination': (
             np.array([[1, 0], [0, 1]], np.float64),
@@ -189,6 +189,38 @@ def parameterize_random_dominance_tests(rng: np.random.Generator) -> Generator:
         col_strategy = create_random_strategy(col_matrix.shape[1], rng)
 
         yield row_matrix, col_matrix, row_strategy, col_strategy
+
+
+def check_support_strategy(
+    matrix: np.ndarray, support: np.ndarray, opp_support: np.ndarray, probs: np.ndarray
+) -> None:
+    """Check that `probs` over `opp_support` makes all actions in `support` equally good."""
+
+    assert probs.dtype == np.float64, 'Incorrect dtype!'
+    assert probs.shape == opp_support.shape, 'Incorrect shape!'
+    assert np.all(probs >= -1e-9), 'Negative probabilities!'
+    assert np.isclose(np.sum(probs), 1.0), 'Strategy does not sum to 1!'
+
+    values = matrix[np.ix_(support, opp_support)] @ probs
+    assert np.allclose(values, values[0], rtol=0.0, atol=1e-6), 'Actions are not indifferent!'
+
+
+def check_correlated_equilibrium(
+    row_matrix: np.ndarray, col_matrix: np.ndarray, distribution: np.ndarray
+) -> None:
+    """Check that `distribution` is a valid correlated equilibrium of the given game."""
+
+    assert distribution.dtype == np.float64, 'Incorrect dtype!'
+    assert distribution.shape == row_matrix.shape, 'Incorrect shape!'
+    assert np.all(distribution >= -1e-9), 'Negative probabilities!'
+    assert np.isclose(np.sum(distribution), 1.0), 'Distribution does not sum to 1!'
+
+    # Gain of deviating to action k when recommended action i (row) or j (column)
+    row_gains = distribution @ row_matrix.T - np.sum(distribution * row_matrix, axis=1)[:, None]
+    col_gains = distribution.T @ col_matrix - np.sum(distribution * col_matrix, axis=0)[:, None]
+
+    assert np.all(row_gains <= 1e-6), 'The row player has an incentive to deviate!'
+    assert np.all(col_gains <= 1e-6), 'The column player has an incentive to deviate!'
 
 
 def cache_data_stream_per_function(fixture_function: Callable) -> Callable:

@@ -1,5 +1,6 @@
 ruff.toml
 matplotlibrc
+slides/*.tex
 
 .venv
 solutions

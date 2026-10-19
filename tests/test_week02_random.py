@@ -12,6 +12,7 @@ from pytest_regressions.ndarrays_regression import NDArraysRegressionFixture
 import week02
 from utils import (
     cache_data_stream_per_function,
+    check_support_strategy,
     create_random_support,
     parameterize_random_general_sum_tests,
     parameterize_random_zero_sum_tests,
@@ -32,6 +33,14 @@ def rng(request: FixtureRequest) -> np.random.Generator:
 
 @pytest.fixture
 @cache_data_stream_per_function
+def support_rng(request: FixtureRequest, rng: np.random.Generator) -> np.random.Generator:
+    """Share a single generator across all parametrizations of a test to vary the supports."""
+
+    return rng
+
+
+@pytest.fixture
+@cache_data_stream_per_function
 def general_sum_data_stream(request: FixtureRequest, rng: np.random.Generator) -> Generator:
     return parameterize_random_general_sum_tests(8, rng)
 
@@ -47,24 +56,27 @@ def test_verify_support_general_sum(
     general_sum_data_stream: Generator,
     ndarrays_regression: NDArraysRegressionFixture,
     request: FixtureRequest,
-    rng: np.random.Generator,
+    support_rng: np.random.Generator,
 ) -> None:
     row_matrix, col_matrix, *_ = next(general_sum_data_stream)
-    row_support = create_random_support(row_matrix.shape[0], rng)
-    col_support = create_random_support(col_matrix.shape[1], rng)
+    row_support = create_random_support(row_matrix.shape[0], support_rng)
+    col_support = create_random_support(col_matrix.shape[1], support_rng)
 
     col_probs = week02.verify_support(row_matrix, row_support, col_support)
     row_probs = week02.verify_support(np.transpose(col_matrix), col_support, row_support)
 
-    # If no valid probabilities were found, use zeros for regression testing
-    row_probs = row_probs if np.any(row_probs) else np.zeros_like(row_support, np.float64)
-    col_probs = col_probs if np.any(col_probs) else np.zeros_like(col_support, np.float64)
+    # The probabilities are not unique in general, so we check their properties instead
+    if col_probs is not None:
+        check_support_strategy(row_matrix, row_support, col_support, col_probs)
 
-    assert row_probs.dtype == np.float64, 'Incorrect dtype!'
-    assert col_probs.dtype == np.float64, 'Incorrect dtype!'
+    if row_probs is not None:
+        check_support_strategy(np.transpose(col_matrix), col_support, row_support, row_probs)
 
     ndarrays_regression.check(
-        {'row_probs': row_probs, 'col_probs': col_probs},
+        {
+            'row_probs_exist': np.array(row_probs is not None, np.int64),
+            'col_probs_exist': np.array(col_probs is not None, np.int64),
+        },
         f'{request.node.originalname}{request.node.callspec.indices["general_sum_data_stream"]}',
     )
 
@@ -74,24 +86,27 @@ def test_verify_support_zero_sum(
     zero_sum_data_stream: Generator,
     ndarrays_regression: NDArraysRegressionFixture,
     request: FixtureRequest,
-    rng: np.random.Generator,
+    support_rng: np.random.Generator,
 ) -> None:
     row_matrix, col_matrix, *_ = next(zero_sum_data_stream)
-    row_support = create_random_support(row_matrix.shape[0], rng)
-    col_support = create_random_support(col_matrix.shape[1], rng)
+    row_support = create_random_support(row_matrix.shape[0], support_rng)
+    col_support = create_random_support(col_matrix.shape[1], support_rng)
 
     col_probs = week02.verify_support(row_matrix, row_support, col_support)
     row_probs = week02.verify_support(np.transpose(col_matrix), col_support, row_support)
 
-    # If no valid probabilities were found, use zeros for regression testing
-    row_probs = row_probs if np.any(row_probs) else np.zeros_like(row_support, np.float64)
-    col_probs = col_probs if np.any(col_probs) else np.zeros_like(col_support, np.float64)
+    # The probabilities are not unique in general, so we check their properties instead
+    if col_probs is not None:
+        check_support_strategy(row_matrix, row_support, col_support, col_probs)
 
-    assert row_probs.dtype == np.float64, 'Incorrect dtype!'
-    assert col_probs.dtype == np.float64, 'Incorrect dtype!'
+    if row_probs is not None:
+        check_support_strategy(np.transpose(col_matrix), col_support, row_support, row_probs)
 
     ndarrays_regression.check(
-        {'row_probs': row_probs, 'col_probs': col_probs},
+        {
+            'row_probs_exist': np.array(row_probs is not None, np.int64),
+            'col_probs_exist': np.array(col_probs is not None, np.int64),
+        },
         f'{request.node.originalname}{request.node.callspec.indices["zero_sum_data_stream"]}',
     )
 
