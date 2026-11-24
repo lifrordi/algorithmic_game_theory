@@ -15,6 +15,7 @@ in this block. Unfortunately, this freedom makes automated testing
 pretty much impossible.
 """
 
+import matplotlib.pyplot as plt
 import numpy as np
 
 
@@ -48,14 +49,15 @@ def fictitious_play(*args, **kwargs):
     raise NotImplementedError
 
 
-def compute_exploitability(*args, **kwargs):
-    """Compute and plot the exploitability of a sequence of strategy profiles."""
+def compute_exploitability(*args, **kwargs) -> list[float]:
+    """Compute the exploitability of each strategy profile in a sequence of strategy profiles."""
 
     raise NotImplementedError
 
 
 def main() -> None:
     from kuhn_poker import KuhnPokerNumpy as KuhnPoker
+    from leduc_poker import LeducPokerNumpy as LeducPoker
 
     # The implementation of the game is a part of a JAX library called `pgx`.
     # You can find more information about it here: https://www.sotets.uk/pgx/kuhn_poker/
@@ -82,6 +84,21 @@ def main() -> None:
 
     assert np.sum(state.rewards) == 0, 'The game is not zero-sum!'
     assert state.terminated or state.truncated, 'The game is not over!'
+
+    # Replace each `...` with the arguments required by your implementation
+    for game_name, env in (('Kuhn Poker', KuhnPoker()), ('Leduc Poker', LeducPoker())):
+        tree = traverse_tree(...)
+        strategies = fictitious_play(..., num_iters=500)
+        exploitabilities = compute_exploitability(...)
+
+        plt.figure()
+        plt.plot(range(1, len(exploitabilities) + 1), exploitabilities, label='Fictitious Play')
+        plt.title(f'Exploitability on {game_name}')
+        plt.xlabel('Iterations')
+        plt.ylabel('Exploitability')
+        plt.legend()
+
+    plt.show()
 
 
 if __name__ == '__main__':

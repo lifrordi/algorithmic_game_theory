@@ -10,7 +10,8 @@
 - Implement a function that computes a weighted average strategy from a pair of strategies
 
 ## 4) Extensive-Form Fictitious Play
-- Implement Extensive-form Fictitious Play and test it on Kuhn Poker
+- Implement Extensive-Form Fictitious Play and run it on Kuhn Poker and Leduc Poker
+- Compute the exploitability of the resulting average strategy profiles and plot it over time for both games
 
 # Week 7 Template
 

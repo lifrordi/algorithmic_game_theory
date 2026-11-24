@@ -2,6 +2,11 @@
 
 import numpy as np
 
+from kuhn_poker import KuhnPokerNumpy as KuhnPoker
+from week01 import evaluate_zero_sum
+from week04 import find_nash_equilibrium
+from week07 import evaluate, traverse_tree
+
 
 def convert_to_normal_form(*args, **kwargs) -> tuple[np.ndarray, np.ndarray]:
     """Convert an extensive-form game into an equivalent normal-form representation.
@@ -62,7 +67,31 @@ def convert_realization_plan_to_behavioural_strategy(*args, **kwargs):
 
 
 def main() -> None:
-    pass
+    # Replace each `...` with the arguments required by your implementation
+    env = KuhnPoker()
+    tree = traverse_tree(...)
+
+    # Normal form
+    row_matrix, col_matrix = convert_to_normal_form(...)
+    print(f'Normal-form payoff matrices: {row_matrix.shape}, {col_matrix.shape}')
+
+    row_strategy, col_strategy = find_nash_equilibrium(row_matrix)
+    row_utility, col_utility = evaluate_zero_sum(row_matrix, row_strategy, col_strategy)
+    print(f'Normal-form LP utilities: {row_utility:.5f}, {col_utility:.5f}')
+
+    # Sequence form
+    row_matrix, col_matrix, *constraints = convert_to_sequence_form(...)
+    print(f'Sequence-form payoff matrices: {row_matrix.shape}, {col_matrix.shape}')
+    print('Realization-plan constraints:', ', '.join(str(array.shape) for array in constraints))
+
+    row_plan, col_plan = find_nash_equilibrium_sequence_form(...)
+    row_utility, col_utility = row_plan @ row_matrix @ col_plan, row_plan @ col_matrix @ col_plan
+    print(f'Sequence-form LP utilities: {row_utility:.5f}, {col_utility:.5f}')
+
+    row_strategy = convert_realization_plan_to_behavioural_strategy(...)
+    col_strategy = convert_realization_plan_to_behavioural_strategy(...)
+    row_utility, col_utility = evaluate(...)
+    print(f'Behavioural strategy utilities: {row_utility:.5f}, {col_utility:.5f}')
 
 
 if __name__ == '__main__':
